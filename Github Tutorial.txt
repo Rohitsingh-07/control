@@ -1,3 +1,7 @@
 Day 1 - Learning Github LinkedIn Learning course
 
 Git is often referred to a version control or source control system. Basically, it helps to manage changes that you or your colleagues have made to the files over time. With Git, you're able to see the history of your files and recover the old version if you need it.
+
+Readme File - 
+
+The purpose of Readme file is to give a description, some best practices and the documentation of the project that you have worked on which talks about the purpose of the project too. So it is always good to start with the readme file
