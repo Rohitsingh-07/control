@@ -20,3 +20,12 @@ The reason to use the Data Warehouse is because if we directly query on the mysq
 is not much readable and may have certain columns which is not that needed for our utilisation.
 
 Data Engineers perform the ETL process and maintain the Data Warehouse infrastructure.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+We are going to plug the Olap with the data visualisation tool and then get the visualisation started
+
+We started learning about the SQL. Started and set up the Mysql workbench and connected a dataset and running queries on that.
+- There is also a course on Khan academy about the relational databases
+
+So Once we install the Power BI, we are goint to pull the data in the Power BI do the required ETL and create a dashboard around it
