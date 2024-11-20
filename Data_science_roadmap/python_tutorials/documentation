@@ -20,3 +20,7 @@ LISTS
 - If we want to combine two lists, we just need to add them with the '+' sign
 - len() function tells us about the number of characters or values in a given list or variable
 - To do look up in lists we can use the 'in' operator which will help us to know whether that value or item in present in a given list or not. The resultant data type of the 'in' oprator is a Bool
+
+PYCHARM
+- This is an IDE just like any other IDE that is used to run huge oython file and execute it
+- In pycharm or other IDEs we have the functionality of a breakpoint which will execute the code only till that given line and can help to identify and bugs present without much of a hassle
