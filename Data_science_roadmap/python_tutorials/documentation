@@ -7,3 +7,4 @@ to round the float numbers to a given limit we can use rounf(variable,2) to redu
 Strings are used to store text data in python
 
 For SLicing in python we use []
+Strings are immutable, we cannot change any position in string once it is defined
