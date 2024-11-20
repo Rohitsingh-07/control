@@ -24,3 +24,5 @@ LISTS
 PYCHARM
 - This is an IDE just like any other IDE that is used to run huge oython file and execute it
 - In pycharm or other IDEs we have the functionality of a breakpoint which will execute the code only till that given line and can help to identify and bugs present without much of a hassle
+
+A small program to check whether the number is even or odd using input() function.
