@@ -32,3 +32,16 @@ if num%2 == 0: print('Number is Even')
 else: print('Number is Odd')
 
 We checked the different types of operators that are used such as AND, OR
+
+A small program to identify the cuisine of a given dish
+
+indian = ['samosa','daal','naan']
+chinese = ['egg role','pot sticker', 'fried rice']
+italian = ['pizza','pasta','risotto']
+
+dish=input('Enter a dish name: ')
+
+if dish in indian: print('indian')
+elif dish in chinese: print('chinese')
+elif dish in italian: print('italian')
+else: print('Based on the knowledge I have, I dont know which cuisine is', dish)
