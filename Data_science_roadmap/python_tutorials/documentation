@@ -8,3 +8,5 @@ Strings are used to store text data in python
 
 For SLicing in python we use []
 Strings are immutable, we cannot change any position in string once it is defined
+- We can use ''' ''' for multi line strings
+- \n means a new line
