@@ -1,3 +1,5 @@
 1. Starting to learn the python first 16 videos which will give a small overview
 
 Variables - These are containers that can hold any kind of data
+
+to round the float numbers to a given limit we can use rounf(variable,2) to reduce it to two decimal points
