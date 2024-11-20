@@ -10,3 +10,4 @@ For SLicing in python we use []
 Strings are immutable, we cannot change any position in string once it is defined
 - We can use ''' ''' for multi line strings
 - \n means a new line
+- str() is a function which is used to convert any other data type to string
