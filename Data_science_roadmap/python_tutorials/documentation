@@ -30,3 +30,5 @@ A small program to check whether the number is even or odd using input() functio
 num = int(input('Enter a number: '))
 if num%2 == 0: print('Number is Even')
 else: print('Number is Odd')
+
+We checked the different types of operators that are used such as AND, OR
