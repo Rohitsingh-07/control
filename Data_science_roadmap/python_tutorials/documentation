@@ -19,3 +19,4 @@ LISTS
 - .insert() function in lists insert the value in the list at a specified position and we have to specify the index where we want that value to be
 - If we want to combine two lists, we just need to add them with the '+' sign
 - len() function tells us about the number of characters or values in a given list or variable
+- To do look up in lists we can use the 'in' operator which will help us to know whether that value or item in present in a given list or not. The resultant data type of the 'in' oprator is a Bool
