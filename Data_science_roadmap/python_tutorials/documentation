@@ -89,3 +89,14 @@ for i in locations:
 
 - Continue statement in for loop is used to skip the lines of code if we don't need it. Continue will skip the line of code after itand would run the code back from its start
 
+PROGRAM
+
+A small program where we are skipping the squaring of even numbers
+
+'''
+for i in range(1,6):
+    if i%2 == 0:
+        continue
+    print(i**2)
+'''
+
