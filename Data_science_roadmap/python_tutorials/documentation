@@ -144,3 +144,4 @@ the default argument that we set
 DICTIONARIES AND TUPLES
 
 - Dictionaries are something that stores Key Value Pairs, they are also called as Maps, Hashtables and Associate Arrays
+- In Dictionaries, we call a value based on the key whereas in the list we call a value based on the Index
