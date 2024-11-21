@@ -27,14 +27,17 @@ PYCHARM
 
 A small program to check whether the number is even or odd using input() function.
 
+'''
 num = int(input('Enter a number: '))
 if num%2 == 0: print('Number is Even')
 else: print('Number is Odd')
+'''
 
 We checked the different types of operators that are used such as AND, OR
 
 A small program to identify the cuisine of a given dish
 
+'''
 indian = ['samosa','daal','naan']
 chinese = ['egg role','pot sticker', 'fried rice']
 italian = ['pizza','pasta','risotto']
@@ -45,9 +48,25 @@ if dish in indian: print('indian')
 elif dish in chinese: print('chinese')
 elif dish in italian: print('italian')
 else: print('Based on the knowledge I have, I dont know which cuisine is', dish)
+'''
 
 Loops and Of comes under the control flow
 
 FOR LOOP
 - For loop is applied usually for a range of function or to do a particular task repeatedly for all the members in a given list
 - Range function just gives you the range of numbers and it does not include the stop position number as in it excludes the last number so always give the start number and the stop number + 1 in range function
+
+PROGRAM
+A small program which uses range, len and for loop
+
+'''
+exp = [2340, 2500, 2100, 3100, 2980]
+total = 0 
+
+for i in range(len(exp)):
+    print('Month:',(i+1),'Expense:',exp[i])
+    total = total + exp[i]
+
+
+print(total)
+'''
