@@ -47,3 +47,6 @@ elif dish in italian: print('italian')
 else: print('Based on the knowledge I have, I dont know which cuisine is', dish)
 
 Loops and Of comes under the control flow
+
+FOR LOOP
+- For loop is applied usually for a range of function or to do a particular task repeatedly for all the members in a given list
