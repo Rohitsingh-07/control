@@ -145,3 +145,12 @@ DICTIONARIES AND TUPLES
 
 - Dictionaries are something that stores Key Value Pairs, they are also called as Maps, Hashtables and Associate Arrays
 - In Dictionaries, we call a value based on the key whereas in the list we call a value based on the Index
+- Order does not matter in a dictionary
+
+To add an element in dictionary we can just do
+
+dict["key_name"] = Value
+
+To delete an element in a dictionary we have to use the del statement
+
+del dict["key_name"]
