@@ -140,3 +140,7 @@ print("Joe's total expenses:",joes_total )
 - We can also use Named and Positional Arguments if we want to change the positions of the function arguments in any way as we desire
 - Default arguments are something which are used as  aproxy if we don't pass the sufficient arguments. We need to assign a default argument for the given position and if no value ispassed for that, It will take
 the default argument that we set
+
+DICTIONARIES AND TUPLES
+
+- Dictionaries are something that stores Key Value Pairs, they are also called as Maps, Hashtables and Associate Arrays
