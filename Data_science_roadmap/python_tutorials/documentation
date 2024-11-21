@@ -86,3 +86,6 @@ for i in locations:
         break
     else: print('key is not found in',i)
 '''
+
+- Continue statement in for loop is used to skip the lines of code if we don't need it. Continue will skip the line of code after itand would run the code back from its start
+
