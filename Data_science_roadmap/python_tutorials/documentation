@@ -70,3 +70,5 @@ for i in range(len(exp)):
 
 print(total)
 '''
+
+- break statement is used in for loop to terminate the loop. The loop will stop and it will come out of the loop
