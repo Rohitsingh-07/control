@@ -161,3 +161,7 @@ del dict["key_name"]
 
 - Tuple is a list of value grouped together
 - Tuples are immutable
+
+PIP INSTALL
+
+- PIP is the Package Installer which installs any package that we require to perform any functionality in python
