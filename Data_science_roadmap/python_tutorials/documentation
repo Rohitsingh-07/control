@@ -203,3 +203,28 @@ with open("C://Users//singh//Downloads//book.txt","w") as f:
 # Writes the JSON string s (containing the dictionary data) to the file.
 # Automatically closes the file after writing due to the with statement.
 '''
+
+- Dump s means we are dumping the Json object into a string
+- Load s means we are loading a string but it is in string format so we want to load the string to Json object hence we use that.
+
+A program wherewe load a string and convert it into a Json object ( Dictionary in Python ) 
+
+'''
+f = open("C://Users//singh//Downloads//book.txt","r")
+s = f.read()
+s
+print(s)
+
+import json
+book=json.loads(s) # this function loads the string into a json so book becomes a dictionary from a string also load is the function and loads means load the string
+book
+print(book)
+print(type(s))
+print(type(book))
+
+book['bob']
+book['bob']['phone']
+
+for person in book:
+    print(book[person])
+'''
