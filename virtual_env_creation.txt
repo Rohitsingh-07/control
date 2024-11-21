@@ -1,1 +1,4 @@
-How to create a virtual environment and how to use it?
+What are the advantages of Virtual Environment in Python?
+
+1. Isolation: Virtual environments provide a isolated environment for each project, preventing dependency conflicts. 
+2. Portability: Virtual environments are portable, allowing you to move projects between systems without worrying about dependencies.
