@@ -165,3 +165,5 @@ del dict["key_name"]
 PIP INSTALL
 
 - PIP is the Package Installer which installs any package that we require to perform any functionality in python
+- We use pip install pasckage_name to install a given package
+- We use pip uninstall package_name to uninstall a given package
