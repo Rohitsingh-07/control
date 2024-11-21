@@ -167,3 +167,7 @@ PIP INSTALL
 - PIP is the Package Installer which installs any package that we require to perform any functionality in python
 - We use pip install pasckage_name to install a given package
 - We use pip uninstall package_name to uninstall a given package
+
+MODULES
+- We can import various modules based on our requirements
+- calender is one of a good module something that we can check out as it gives us a calender like structure of a month as we pass in it
