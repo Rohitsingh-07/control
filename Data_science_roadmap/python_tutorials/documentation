@@ -158,3 +158,5 @@ del dict["key_name"]
 - We use dict.items() to call the whole key value pairs in a dictionary
 - To look up values, we can use in operator in dictionary to check whether a given element is present or not in a dictionary
 - dict.clear() will wipe out all the records in a dictionary
+
+- Tuple is a list of value grouped together
