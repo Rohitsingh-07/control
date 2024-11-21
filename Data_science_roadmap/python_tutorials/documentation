@@ -160,3 +160,4 @@ del dict["key_name"]
 - dict.clear() will wipe out all the records in a dictionary
 
 - Tuple is a list of value grouped together
+- Tuples are immutable
