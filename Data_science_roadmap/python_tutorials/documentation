@@ -100,3 +100,16 @@ for i in range(1,6):
     print(i**2)
 '''
 
+While loop is used when we want o execute repeated tasks till a given condition is true. Once the condition is false we want to stop the task. In such cases the while loop is used. 
+We have to be careful while using while loop or else the loop would keep running resulting in an infinite loop
+
+PROGRAM
+
+A small program on while loop
+
+'''
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+'''
