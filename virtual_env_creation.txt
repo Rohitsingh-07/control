@@ -2,3 +2,19 @@ What are the advantages of Virtual Environment in Python?
 
 1. Isolation: Virtual environments provide a isolated environment for each project, preventing dependency conflicts. 
 2. Portability: Virtual environments are portable, allowing you to move projects between systems without worrying about dependencies.
+
+How to create a Virtual environment in Python?
+- Open up the CMD
+- Go to the folder that you want to create the virtual environment ( In our case we did it on the Desktop)
+- run the command python -m venv env(env here is the environemt's name that we can keep anything)
+- after creating the virtual env we need to activate it with this command - "env\Scripts\activate.bat"
+- cls is the command to clear the screen in command prompt
+- To deactivate the virtual env we just have to run "deactivate" in the command prompt and the virtual env will get deactivated
+- We can now install packages into the given  V env to run the given code as we want to
+- PIP stands for Prefferred Installer Program
+- pip list will show us the packages present in the env
+
+- Do also learn how to install packages from a file
+
+How do I start coding in the virtual environment?
+- Just write "code" in the command prompt and then the VS code gets started where you can start writing the code
