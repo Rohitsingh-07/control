@@ -136,3 +136,5 @@ print("Joe's total expenses:",joes_total )
 '''
 
 - A function has a function argument and a return value and this consists of the entire Function Body 
+- Retunr is the keyword which is used to retunr th eoutput of a function
+- We can also use Named and Positional Arguments if we want to change the positions of the function arguments in any way as we desire
