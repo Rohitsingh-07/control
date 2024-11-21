@@ -177,3 +177,29 @@ JSON
 JSON - Java Script Object Notation
 JSON is data exchange format similar to XML
 - JSON is lightweight compared to XML
+
+A small program to write a Json file to a given location on the local machine
+'''
+book = {}
+
+book['tom'] = {
+    'name':'tom',
+    'address': '1 red street, NY',
+    'phone': 9898498495
+}
+book['bob']={
+    'name':'bob',
+    'address': '1 green street, NY',
+    'phone': 9898495984 
+}
+
+import json
+s=json.dumps(book)
+# The json.dumps() function converts the book dictionary into a JSON-formatted string. This string can now be written to a file or transmitted over the network.
+with open("C://Users//singh//Downloads//book.txt","w") as f:
+    f.write(s)
+
+# Opens the file book.txt in the specified path (C://Users//singh//Downloads//) in write mode.
+# Writes the JSON string s (containing the dictionary data) to the file.
+# Automatically closes the file after writing due to the with statement.
+'''
