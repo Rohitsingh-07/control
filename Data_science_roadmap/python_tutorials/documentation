@@ -154,3 +154,5 @@ dict["key_name"] = Value
 To delete an element in a dictionary we have to use the del statement
 
 del dict["key_name"]
+
+- We use dict.items() to call the whole key value pairs in a dictionary
