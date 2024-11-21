@@ -134,3 +134,5 @@ joes_total= calculate_total(joe_exp_list)
 print("Tom's total expenses:",toms_total )
 print("Joe's total expenses:",joes_total )
 '''
+
+- A function has a function argument and a return value and this consists of the entire Function Body 
