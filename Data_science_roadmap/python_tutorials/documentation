@@ -50,3 +50,4 @@ Loops and Of comes under the control flow
 
 FOR LOOP
 - For loop is applied usually for a range of function or to do a particular task repeatedly for all the members in a given list
+- Range function just gives you the range of numbers and it does not include the stop position number as in it excludes the last number so always give the start number and the stop number + 1 in range function
