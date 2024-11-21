@@ -172,3 +172,8 @@ MODULES
 - We can import various modules based on our requirements
 - calender is one of a good module something that we can check out as it gives us a calender like structure of a month as we pass in it
 - We can use dir() command to know about all the functions available in a given module
+
+JSON
+JSON - Java Script Object Notation
+JSON is data exchange format similar to XML
+- JSON is lightweight compared to XML
