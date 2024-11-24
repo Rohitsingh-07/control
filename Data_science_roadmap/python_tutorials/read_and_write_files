@@ -1,1 +1,31 @@
-Hi
+1. Create a new file and write to it
+2. Reading file line by line
+3. File open modes
+4. With statement
+
+- Open is used to open a given path and the file. The first parameter is the file name and the second parameter is the mode such as write or read
+- .write() function is used to write to the file
+- .close() function is used to close the file
+- w is write which overwrites what we write in a file
+- a is append which appends to the given file whatever we want to write
+- \n is a new line character which will append the line to a new line
+- file.read() is used to read all the contents of the file
+- Always close the file
+- .split() function is used to split a given line with separators and the output of split is a list of tokens
+- with statement is used so that even if we forget to close the file after use, it won't cause any issue
+
+EXCEPTION HANDLING
+
+- Exception Handling is done in python by using Try Catch which has statement as Try Except
+
+A small progrm showing the try except thing
+'''
+x=input("Enter number 1: ")
+y=input("Enter number 2: ")
+try:
+    z=int(x)/int(y)
+except:
+    print('Cannot Perform Maths')
+'''
+
+- We can also do multiple exception where we use except more than once to handle more than one case
