@@ -1,0 +1,34 @@
+What is Class?
+- Class is an abstraction of some entity whoch contains common set of properties and methods
+
+What is Object?
+- Object is an instance of a class
+
+A small intro program showcasing classes and objects
+'''
+class Human:  # Class keyword to define a class and then Human is the name of the class
+    def __init__(self, name, occupation):  # This is going to intialize the properties of that particular class when we later on create the instance
+        self.name=name                     # name and occupation here are the properties of the class whereas the name and occupation in the init statement are the arguments
+        self.occupation=occupation
+    
+# defining a method
+    def do_work(self):                     # The first argument in any method is always self
+        if self.occupation == "tennis player":  # This is the first method
+            print(self.name,"plays tennis")
+        elif self.occupation=="actor":
+            print(self.name,"shoots a film")
+
+    def speaks(self):                           # This is the second method
+        print(self.name,"says how are you?")
+
+# let's create the instance of the class
+tom = Human("Tom Cruise","actor")  # you don't need to pass any argument for self
+tom.do_work()
+tom.speaks()
+
+maria = Human("Maria Sharapova","tennis player")  # you don't need to pass any argument for self
+maria.do_work()
+maria.speaks()
+'''
+
+- OOP is very good if we want to learn programming seriously and it is very useful while writing huge programs
