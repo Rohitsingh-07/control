@@ -1,0 +1,23 @@
+Numpy main object is ndarray (n dimensional array)
+- ndarray from numpy is very similar to a list
+
+What is the difference between a list and an array?
+
+np array
+- In Python, array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. 
+Unlike Python lists (can store elements of mixed types), arrays in Python must have all elements of same type. Having only homogeneous elements makes it memory-efficient.
+
+- Homogeneous Data: NumPy arrays store elements of the same data type, making them more compact and memory-efficient than lists.
+- Fixed Data Type: NumPy arrays have a fixed data type, reducing memory overhead by eliminating the need to store type information for each element.
+- Contiguous Memory: NumPy arrays store elements in adjacent memory locations, reducing fragmentation and allowing for efficient access.
+- Array Metadata: NumPy arrays have extra metadata like shape, strides, and data type. However, this overhead is usually smaller than the per-element overhead in lists.
+- Performance: NumPy arrays are optimized for numerical computations, with efficient element-wise operations and mathematical functions. 
+These operations are implemented in C, resulting in faster performance than equivalent operations on lists.
+
+Lists
+
+- Element Overhead: Lists in Python store additional information about each element, such as its type and reference count. This overhead can be significant when dealing with a large number of elements.
+- Datatype: Lists can hold different data types, but this can decrease memory efficiency and slow numerical operations.
+- Memory Fragmentation: Lists may not store elements in contiguous memory locations, causing memory fragmentation and inefficiency.
+- Performance: Lists are not optimized for numerical computations and may have slower mathematical operations due to Python’s interpretation overhead. They are generally used as general-purpose data structures.
+- Functionality: Lists can store any data type, but lack specialized NumPy functions for numerical operations.
