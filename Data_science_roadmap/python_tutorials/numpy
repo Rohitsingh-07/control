@@ -21,3 +21,17 @@ Lists
 - Memory Fragmentation: Lists may not store elements in contiguous memory locations, causing memory fragmentation and inefficiency.
 - Performance: Lists are not optimized for numerical computations and may have slower mathematical operations due to Python’s interpretation overhead. They are generally used as general-purpose data structures.
 - Functionality: Lists can store any data type, but lack specialized NumPy functions for numerical operations.
+
+
+Program to find the size
+'''
+import numpy as np
+import time
+import sys
+
+l = range(1000)
+print(sys.getsizeof(1000)*len(l))  # getsizeof gives the size of the element in bytes and all the elements have the same size hence we are multiplying with len
+
+array = np.arange(1000)
+print(array.size*array.itemsize) # same function here
+'''
