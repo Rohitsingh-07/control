@@ -18,3 +18,6 @@ How to create a Virtual environment in Python?
 
 How do I start coding in the virtual environment?
 - Just write "code" in the command prompt and then the VS code gets started where you can start writing the code
+
+- We can write a list of requirements of the libraries in python in a file by pip list> requirements.txt this will have the libraries in this text file
+- to install all the librares in the requirements file we have to write pip install - r requirements.txt
