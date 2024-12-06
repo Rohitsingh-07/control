@@ -10,3 +10,11 @@
 - The whole idea of an array is that the datatype should be same throughout the array
 - Arrays can be multi dimensional and the most frequent one are 2D arrays which says that the left index os the row number and the right ndex is the column number
 - 2D arrays are used with solving a lot of matrix problems and a lot of graph problems
+
+What is a For Loop and Why is it Used?
+
+A for loop is a control structure in programming that allows you to execute a specific block of code repeatedly. It's especially useful when you want to perform the same task multiple times without duplicating your code. Let's break down the essential components of a for loop:
+
+Initialization: You declare and initialize a variable that serves as a counter. This step only happens once at the beginning.
+Condition: You specify a condition that determines when the loop should stop executing.
+Increment/Decrement: You define how the counter variable changes after each iteration.
