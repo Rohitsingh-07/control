@@ -15,7 +15,8 @@
 
 What is a For Loop and Why is it Used?
 
-A for loop is a control structure in programming that allows you to execute a specific block of code repeatedly. It's especially useful when you want to perform the same task multiple times without duplicating your code. Let's break down the essential components of a for loop:
+A for loop is a control structure in programming that allows you to execute a specific block of code repeatedly. 
+It's especially useful when you want to perform the same task multiple times without duplicating your code. Let's break down the essential components of a for loop:
 
 Initialization: You declare and initialize a variable that serves as a counter. This step only happens once at the beginning.
 Condition: You specify a condition that determines when the loop should stop executing.
@@ -31,3 +32,6 @@ Evaluation of Test Expression: The loop begins by evaluating a test expression.
 Condition Check: If the test expression is true, the code inside the loop's body is executed.
 Re-evaluation: After executing the code, the test expression is evaluated again.
 Continuation or Termination: This process continues until the test expression becomes false, at which point the while loop terminates.
+
+A while loop is a control structure in programming that repeatedly executes a block of code as long as a specified condition remains true. 
+A "while" loop will not execute the code at all if the initial condition is false. It relies on the condition being true from the outset for any code execution to occur.
