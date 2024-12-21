@@ -8,7 +8,7 @@
 - The next topic is what are arrays, strings?
 
 - The whole idea of an array is that the datatype should be same throughout the array
-- Arrays can be multi dimensional and the most frequent one are 2D arrays which says that the left index os the row number and the right ndex is the column number
+- Arrays can be multi dimensional and the most frequent one are 2D arrays which says that the left index is the row number and the right index is the column number
 - 2D arrays are used with solving a lot of matrix problems and a lot of graph problems
 
 - FOR LOOP
