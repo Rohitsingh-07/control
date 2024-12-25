@@ -24,3 +24,5 @@ np.zeros((3,4)) # this will create an array with zeros as all the elements for t
 - np arange function also has the step with it. so it would create the array of the numbers with a step of it
 - np.linspace function is another function in numpy which creates an array which has the start point, end point and the step. So here the step is used to linearly split the number in the given no of steps
 - It will keep the difference between two numbers similar but will break it in a linear pattern
+
+- reshape is another function in numpy which is used to change the shape of a given array be it the shape is compatible with the no of elements present
