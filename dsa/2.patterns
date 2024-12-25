@@ -181,4 +181,20 @@ print_pattern(6)
 
 9. For pattern number 9 we can just combine the two patterns pattern 7 and pattern 8 to get the desired output
 
+=================================================================================================================================================================================================================
+
+10. 
+```
+def print_pattern(N):
+    # Upper part of the pattern
+    for i in range(1, N + 1):  # Rows increasing
+        print("*" * i)  # Print stars for the current row
+    
+    # Lower part of the pattern
+    for i in range(N - 1, 0, -1):  # Rows decreasing
+        print("*" * i)  # Print stars for the current row
+
+print_pattern(6)
+```
+=================================================================================================================================================================================================================
 
