@@ -21,3 +21,4 @@ np.zeros((3,4)) # this will create an array with zeros as all the elements for t
 
 - range() and arange are two functions in numpy which create a list which contains the elements between a start point and an end point which are basically numbers
 - range creates a list whereas arange creates a numpy array and arange is the only one which is a numpy function
+- np arange function also has the step with it. so it would create the array of the numbers with a step of it
