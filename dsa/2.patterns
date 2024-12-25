@@ -69,3 +69,26 @@ print_pattern(5)
 
 =================================================================================================================================================================================================================
 
+3. The third pattern we want to solve is as follows
+
+1
+12
+123
+1234
+12345
+
+Solution:
+```
+def print_pattern(N):
+    
+    for i in range(1,N+1):
+        for j in range(1,i+1):
+            print(j, end="")  # The end="" prevents a newline after each *.
+        # j=+1 # This line does not affect the loop behavior because j in the loop is controlled by range(0, 5). The reassignment has no impact on the next iteration.
+        print()
+    # i=+1 #This does not affect the outer loop because i is controlled by range(0, 5).
+
+print_pattern(5)
+```
+
+=================================================================================================================================================================================================================
