@@ -28,6 +28,7 @@ np.zeros((3,4)) # this will create an array with zeros as all the elements for t
 - reshape is another function in numpy which is used to change the shape of a given array be it the shape is compatible with the no of elements present
 - ravel is another function in numpy which is used to flatten the array in a single dimensional one. It is used to convert a multi dimensional array into a single one
 - The above mentioned functions would not change the nature of the original array so we need to keep that in mind while doing any data manipulations
+- we can also perform a dot product between two arrays with """ a.dot(b) """
 
 - axis 0 in numpy array means the columns and axis 1 in numpy array means the rows
 - np.sqrt() is a function which will return the square root of the given elements of the array
