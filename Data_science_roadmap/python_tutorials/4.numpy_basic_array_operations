@@ -26,3 +26,4 @@ np.zeros((3,4)) # this will create an array with zeros as all the elements for t
 - It will keep the difference between two numbers similar but will break it in a linear pattern
 
 - reshape is another function in numpy which is used to change the shape of a given array be it the shape is compatible with the no of elements present
+- ravel is another function in numpy which is used to flatten the array in a single dimensional one. It is used to convert a multi dimensional array into a single one
