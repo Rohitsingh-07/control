@@ -198,3 +198,25 @@ print_pattern(6)
 ```
 =================================================================================================================================================================================================================
 
+11.
+
+```
+def pattern(N):
+    # Outer loop for the number of rows
+    for i in range(N):
+        # Determine starting value (1 for even rows, 0 for odd rows)
+        start = 1 if i % 2 == 0 else 0
+        
+        # Inner loop for printing values in each row
+        for j in range(i + 1):
+            print(start, end="")  # Print the current value
+            start = 1 - start  # Alternate between 1 and 0
+        
+        # Move to the next line after each row
+        print()
+
+pattern(5)
+```
+
+=================================================================================================================================================================================================================
+
