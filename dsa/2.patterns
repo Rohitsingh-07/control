@@ -25,3 +25,19 @@ for i in range(0,5):
     print()
     # i=+1 #This does not affect the outer loop because i is controlled by range(0, 5).
 ```
+
+```
+A more dynamic code
+
+def print_pattern(N):
+    
+    for i in range(N):
+        for j in range(N):
+            print('*', end="")  # The end="" prevents a newline after each *.
+        # j=+1 # This line does not affect the loop behavior because j in the loop is controlled by range(0, 5). The reassignment has no impact on the next iteration.
+        print()
+    # i=+1 #This does not affect the outer loop because i is controlled by range(0, 5).
+
+print_pattern(3)
+
+```
