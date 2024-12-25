@@ -30,3 +30,4 @@ np.zeros((3,4)) # this will create an array with zeros as all the elements for t
 - The above mentioned functions would not change the nature of the original array so we need to keep that in mind while doing any data manipulations
 
 - axis 0 in numpy array means the columns and axis 1 in numpy array means the rows
+- np.sqrt() is a function which will return the square root of the given elements of the array
