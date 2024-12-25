@@ -18,3 +18,5 @@ a.shape # this will tell the shape of the array which consists of the (no of row
 np.zeros((3,4)) # this will create an array with zeros as all the elements for the given shape
 
 # the same thing can be done with ones with np.ones((3,4))
+
+- range() and arrange are two functions in numpy which create a list which contains the elements between a start point and an end point which are basically numbers
