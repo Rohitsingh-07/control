@@ -23,3 +23,10 @@ This structure helps ensure that data is well-organized and ready for analysis b
 - Role of Data Engineering: Data engineering is responsible for managing everything within the Data Hub, including the inputs and outputs.
 - Tasks Involved: Key tasks include data operations (infrastructure and system performance), data preparation (staging, cleansing, conforming, and delivering analytical data sets), and managing data interfaces (APIs and query tools).
 - Importance: Data engineers ensure the system is up and running, and they prepare data for use by applications, data scientists, and business teams.
+
+![image](https://github.com/user-attachments/assets/165b3d60-f5ec-4b03-b783-1adfa9e1f0d5)
+
+- Data Profiling and Quality Checks: Initially, create data profiles and log row counts. Run quality checks to test for null values in important columns.
+- Cleansing and Logging: Manipulate the data, log missing values, and ensure the ability to roll back operations if needed.
+- Conforming and Monitoring: Perform go/no-go checks based on logged errors and red flags. Send notifications to the data ops team.
+Post-Delivery Quality Checks: Run additional quality checks after data delivery and perform automated rollbacks if necessary.
