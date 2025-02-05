@@ -1,4 +1,4 @@
-▪ Basics: Descriptive vs inferential statistics, continuous vs discrete data, nominal vs ordinal data  
+▪ Basics: Descriptive vs inferential statistics, continuous vs discrete data, nominal vs ordinal data /n
 ▪ Basic plots: Histograms, pie charts, bar charts, scatter plot etc. 
 ▪ Measures of central tendency: mean, median, mode 
 ▪ Measures of dispersion: variance, standard deviation 
