@@ -1,0 +1,230 @@
+1. Starting to learn the python first 16 videos which will give a small overview
+
+Variables - These are containers that can hold any kind of data
+
+to round the float numbers to a given limit we can use rounf(variable,2) to reduce it to two decimal points
+
+Strings are used to store text data in python
+
+For SLicing in python we use []
+Strings are immutable, we cannot change any position in string once it is defined
+- We can use ''' ''' for multi line strings
+- \n means a new line
+- str() is a function which is used to convert any other data type to string
+
+LISTS
+- Lists are mutable
+- Slicing works in Lists
+- .append() function in lists append the value in the list at the end position
+- .insert() function in lists insert the value in the list at a specified position and we have to specify the index where we want that value to be
+- If we want to combine two lists, we just need to add them with the '+' sign
+- len() function tells us about the number of characters or values in a given list or variable
+- To do look up in lists we can use the 'in' operator which will help us to know whether that value or item in present in a given list or not. The resultant data type of the 'in' oprator is a Bool
+
+PYCHARM
+- This is an IDE just like any other IDE that is used to run huge oython file and execute it
+- In pycharm or other IDEs we have the functionality of a breakpoint which will execute the code only till that given line and can help to identify and bugs present without much of a hassle
+
+A small program to check whether the number is even or odd using input() function.
+
+'''
+num = int(input('Enter a number: '))
+if num%2 == 0: print('Number is Even')
+else: print('Number is Odd')
+'''
+
+We checked the different types of operators that are used such as AND, OR
+
+A small program to identify the cuisine of a given dish
+
+'''
+indian = ['samosa','daal','naan']
+chinese = ['egg role','pot sticker', 'fried rice']
+italian = ['pizza','pasta','risotto']
+
+dish=input('Enter a dish name: ')
+
+if dish in indian: print('indian')
+elif dish in chinese: print('chinese')
+elif dish in italian: print('italian')
+else: print('Based on the knowledge I have, I dont know which cuisine is', dish)
+'''
+
+Loops and Of comes under the control flow
+
+FOR LOOP
+- For loop is applied usually for a range of function or to do a particular task repeatedly for all the members in a given list
+- Range function just gives you the range of numbers and it does not include the stop position number as in it excludes the last number so always give the start number and the stop number + 1 in range function
+
+PROGRAM
+A small program which uses range, len and for loop
+
+'''
+exp = [2340, 2500, 2100, 3100, 2980]
+total = 0 
+
+for i in range(len(exp)):
+    print('Month:',(i+1),'Expense:',exp[i])
+    total = total + exp[i]
+
+
+print(total)
+'''
+
+- break statement is used in for loop to terminate the loop. The loop will stop and it will come out of the loop
+
+PROGRAM
+
+A small program showing the usage of Break Statement
+
+'''
+key_location='chair'
+locations=['garage','living room','chair','closet']
+for i in locations:
+    if i == key_location:
+        print('key is found in',i)
+        break
+    else: print('key is not found in',i)
+'''
+
+- Continue statement in for loop is used to skip the lines of code if we don't need it. Continue will skip the line of code after itand would run the code back from its start
+
+PROGRAM
+
+A small program where we are skipping the squaring of even numbers
+
+'''
+for i in range(1,6):
+    if i%2 == 0:
+        continue
+    print(i**2)
+'''
+
+While loop is used when we want o execute repeated tasks till a given condition is true. Once the condition is false we want to stop the task. In such cases the while loop is used. 
+We have to be careful while using while loop or else the loop would keep running resulting in an infinite loop
+
+PROGRAM
+
+A small program on while loop
+
+'''
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+'''
+
+PROGRAM
+
+A small program which shows how to create a function and use it
+
+'''
+def calculate_total(exp):
+    total = 0
+    for item in exp:
+        total=total+item
+    return total
+
+tox_exp_list = [2100,3400,3500]
+joe_exp_list = [200,500,700]
+
+toms_total= calculate_total(tox_exp_list)
+joes_total= calculate_total(joe_exp_list)
+
+print("Tom's total expenses:",toms_total )
+print("Joe's total expenses:",joes_total )
+'''
+
+- A function has a function argument and a return value and this consists of the entire Function Body 
+- Retunr is the keyword which is used to retunr th eoutput of a function
+- We can also use Named and Positional Arguments if we want to change the positions of the function arguments in any way as we desire
+- Default arguments are something which are used as  aproxy if we don't pass the sufficient arguments. We need to assign a default argument for the given position and if no value ispassed for that, It will take
+the default argument that we set
+
+DICTIONARIES AND TUPLES
+
+- Dictionaries are something that stores Key Value Pairs, they are also called as Maps, Hashtables and Associate Arrays
+- In Dictionaries, we call a value based on the key whereas in the list we call a value based on the Index
+- Order does not matter in a dictionary
+
+To add an element in dictionary we can just do
+
+dict["key_name"] = Value
+
+To delete an element in a dictionary we have to use the del statement
+
+del dict["key_name"]
+
+- We use dict.items() to call the whole key value pairs in a dictionary
+- To look up values, we can use in operator in dictionary to check whether a given element is present or not in a dictionary
+- dict.clear() will wipe out all the records in a dictionary
+
+- Tuple is a list of value grouped together
+- Tuples are immutable
+
+PIP INSTALL
+
+- PIP is the Package Installer which installs any package that we require to perform any functionality in python
+- We use pip install pasckage_name to install a given package
+- We use pip uninstall package_name to uninstall a given package
+
+MODULES
+- We can import various modules based on our requirements
+- calender is one of a good module something that we can check out as it gives us a calender like structure of a month as we pass in it
+- We can use dir() command to know about all the functions available in a given module
+
+JSON
+JSON - Java Script Object Notation
+JSON is data exchange format similar to XML
+- JSON is lightweight compared to XML
+
+A small program to write a Json file to a given location on the local machine
+'''
+book = {}
+
+book['tom'] = {
+    'name':'tom',
+    'address': '1 red street, NY',
+    'phone': 9898498495
+}
+book['bob']={
+    'name':'bob',
+    'address': '1 green street, NY',
+    'phone': 9898495984 
+}
+
+import json
+s=json.dumps(book)
+# The json.dumps() function converts the book dictionary into a JSON-formatted string. This string can now be written to a file or transmitted over the network.
+with open("C://Users//singh//Downloads//book.txt","w") as f:
+    f.write(s)
+
+# Opens the file book.txt in the specified path (C://Users//singh//Downloads//) in write mode.
+# Writes the JSON string s (containing the dictionary data) to the file.
+# Automatically closes the file after writing due to the with statement.
+'''
+
+- Dump s means we are dumping the Json object into a string
+- Load s means we are loading a string but it is in string format so we want to load the string to Json object hence we use that.
+
+A program wherewe load a string and convert it into a Json object ( Dictionary in Python ) 
+
+'''
+f = open("C://Users//singh//Downloads//book.txt","r")
+s = f.read()
+s
+print(s)
+
+import json
+book=json.loads(s) # this function loads the string into a json so book becomes a dictionary from a string also load is the function and loads means load the string
+book
+print(book)
+print(type(s))
+print(type(book))
+
+book['bob']
+book['bob']['phone']
+
+for person in book:
+    print(book[person])
+'''
