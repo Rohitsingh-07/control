@@ -1,4 +1,4 @@
-lovable.ai
-cursor
-windsurf
-bolt
+- lovable.ai
+- cursor
+- windsurf
+- bolt
