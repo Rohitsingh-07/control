@@ -1,0 +1,4 @@
+lovable.ai
+cursor
+windsurf
+bolt
