@@ -122,3 +122,18 @@ Year | Company | Product | Notes | Drawback</br>
 2020–2022 | Roborock, Ecovacs, Dreame | Introduced self-emptying, AI object detection (to avoid cables, shoes, pet waste). | AI object detection still made mistakes; docks expensive. | </br>
 2023–2024 | iRobot, Roborock, Ecovacs | Premium models with full AI navigation, smart mapping, multi-floor memory. | Top models became very expensive (>$1000). | </br>
 2025 (Now) | Roborock, Ecovacs, Dreame, iRobot | Fully autonomous cleaning (vacuum+mop+AI obstacle avoidance + self-emptying + drying mop cloths). | Some brands (especially cheaper models) still struggle with AI accuracy and complex cable layouts; premium features only in $900–$1500 range. | 
+
+---
+
+Year | Company | Product | Notes | Drawback | Algorithms/Tech Used </br>
+2001 | Electrolux | Trilobite | First commercial robot vacuum. Used ultrasonic sensors for navigation. | Very expensive, poor obstacle handling, often stuck. | Ultrasonic sensors for basic collision avoidance. No mapping.</br>
+2002 | iRobot | Roomba (1st Gen) | First mass-market robot vacuum. Random navigation pattern. | No mapping, inefficient cleaning (random bump navigation). | Random bump algorithm, basic obstacle detection sensors.</br>
+2010 | Neato Robotics | XV-11 | First with Laser (LIDAR) navigation for mapping. | Battery life was short, mechanical reliability issues. | SLAM (Simultaneous Localization and Mapping) using LIDAR.</br>
+2014 | Dyson | 360 Eye | Camera-based navigation + powerful suction. | Very expensive, small dustbin, too tall to clean under furniture. | V-SLAM (Visual SLAM) using a 360° top-facing camera.</br>
+2016 | Xiaomi | Mi Robot Vacuum | High-quality LIDAR navigation, long battery life, affordable. | Heavy app reliance (Mi Home ecosystem), initial software bugs. | LIDAR + SLAM, improved path planning algorithms.</br>
+2017 | Roborock | S5 | Hybrid vacuum+mop, smart efficient pathing. | Mopping function was basic (dragged wet cloth, no scrubbing). | SLAM with LIDAR, dynamic room mapping, multi-zone cleaning logic.</br>
+2018 | Ecovacs | Deebot Series | Affordable vacuums with mopping features. | Mapping less reliable; weaker suction power. | Early camera + IR sensors, basic SLAM, path optimization.</br>
+2019 | SharkNinja | IQ Robot | Introduced affordable self-emptying dock. | Navigation slower and less accurate than premium competitors. | Row-by-row navigation (basic mapping, no SLAM initially).</br>
+2020–2022 | Roborock, Ecovacs, Dreame | Self-emptying, AI object detection features. | AI object detection still made mistakes; docks expensive. | AI vision + LIDAR fusion, object detection models (CNNs). | </br>
+2023–2024 | iRobot, Roborock, Ecovacs | Full AI navigation, smart multi-floor mapping. | Very expensive models (> $1000). | 3D structured light sensors, RGB cameras, Deep Learning obstacle recognition. | </br>
+2025 (Now) | Roborock, Ecovacs, Dreame, iRobot | Fully autonomous cleaning + self-emptying + self-washing mops. | AI still imperfect; Premium prices ($900–$1500). | Hybrid LIDAR + 3D RGBD Camera, Neural Networks for object detection, Multi-layer SLAM for complex multi-floor homes. | </br>
