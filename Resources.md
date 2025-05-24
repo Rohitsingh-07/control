@@ -11,3 +11,5 @@
 https://www.instagram.com/reel/DJkT1WiT8ek/?igsh=ODlzOXMycTR4aG1w
 
 https://www.instagram.com/reel/DDmSzTkzjgO/?igsh=c3ZscXluYnJiZGFv
+
+https://www.linkedin.com/posts/meri-nova_aiengineer-activity-7332123004706922496-JjDU?utm_source=share&utm_medium=member_ios&rcm=ACoAADET5uIBU4zL03LSUOL3RCXM5wgY1RY9ftc
