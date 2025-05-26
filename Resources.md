@@ -17,3 +17,5 @@ https://www.linkedin.com/posts/meri-nova_aiengineer-activity-7332123004706922496
 https://www.linkedin.com/posts/dev-g-5b3a862b2_5-aiml-github-repos-for-busy-tech-professionals-activity-7332107371365777409-pj1g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADET5uIBU4zL03LSUOL3RCXM5wgY1RY9ftc
 
 https://www.instagram.com/reel/DJ4bK-khBX_/?igsh=MTB4cXppNDZxbWY5NQ==
+
+https://www.instagram.com/reel/DJ_1LiMxXt8/?igsh=aTFpZzJ4aTl1bzF5
