@@ -169,3 +169,12 @@ https://chatgpt.com/s/t_68b445d4a61c81919f104fbbf3e32ea0
 
 ---
 
+# M5 Forecasting (Walmart) data
+
+- The M5 Forecasting dataset was released by Walmart for the M5 Kaggle competition (2020). It is considered one of the largest and most realistic retail forecasting datasets ever made publicly available.
+
+What is the M5 Forecasting Dataset?
+- It contains unit sales data for 3,049 products across 10 stores in 3 states of the US (CA, TX, WI).
+- Covers a time period of 1,941 days (~5 years) of daily sales.
+- Includes additional features like calendar info, special events, and historical prices, making it very close to a real-world scenario.
+
