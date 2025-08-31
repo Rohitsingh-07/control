@@ -164,3 +164,8 @@ If you want, I can drop in a minimal **code skeleton** (feature builder, Ridge t
 [2]: https://archive.ics.uci.edu/dataset/352/online%2Bretail?utm_source=chatgpt.com "Online Retail - UCI Machine Learning Repository"
 [3]: https://www.kaggle.com/c/m5-forecasting-accuracy?utm_source=chatgpt.com "M5 Forecasting - Accuracy"
 [4]: https://www.kaggle.com/c/demand-forecasting-kernels-only/data?utm_source=chatgpt.com "Store Item Demand Forecasting Challenge"
+
+https://chatgpt.com/s/t_68b445d4a61c81919f104fbbf3e32ea0
+
+---
+
