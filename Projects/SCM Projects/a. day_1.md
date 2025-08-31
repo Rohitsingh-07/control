@@ -27,3 +27,5 @@ I want you to help me design a project idea that:
 - Includes details like: problem definition, dataset sources, data preprocessing steps, model building, evaluation metrics, and potential business insights.
 - Provides suggestions on how I can present it on my resume and portfolio to make it stand out to recruiters.
 - Please create a project outline with clear steps, dataset links, and explain how this project reflects a real-world problem solution in procurement/inventory/demand forecasting."*
+
+https://chatgpt.com/s/t_68b44306ebd88191b6d9e187796d4e04
