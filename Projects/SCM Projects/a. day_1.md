@@ -8,4 +8,4 @@
 6. Check the resources
 7. Code and get it ready
 
-**Log Everything**
+<ins>**Log Everything**</ins>
