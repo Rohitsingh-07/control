@@ -1,4 +1,4 @@
-#### Steps for the Project 
+### Steps for the Project 
 
 1. Ask Chatgpt for the Prompt
 2. Refine and store the Prompt
@@ -8,5 +8,4 @@
 6. Check the resources
 7. Code and get it ready
 
-*Log Everything*
-
+**Log Everything**
