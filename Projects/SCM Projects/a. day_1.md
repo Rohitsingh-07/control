@@ -8,4 +8,5 @@
 6. Check the resources
 7. Code and get it ready
 
+[!Note]
 <ins>**Log Everything**</ins>
