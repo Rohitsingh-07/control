@@ -32,11 +32,11 @@ https://chatgpt.com/s/t_68b44306ebd88191b6d9e187796d4e04
 
 ---
 
-- Project Roadmap
+# Project Roadmap
 
 Awesome—let’s turn your background into a tight, 2–3 day, portfolio-ready project that feels like something a procurement analytics team would actually deploy.
 
-# Project: Demand-Driven Replenishment for Multi-Store Retail (Regression + Inventory Optimization)
+## Project: Demand-Driven Replenishment for Multi-Store Retail (Regression + Inventory Optimization)
 
 ## 1) Real-world problem
 
