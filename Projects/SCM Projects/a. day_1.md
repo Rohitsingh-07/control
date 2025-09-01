@@ -195,3 +195,5 @@ What is the M5 Forecasting Dataset?
 - Merging with calendar data to get the date
 - Sanity Checks
   - 
+
+EDA Link - https://chatgpt.com/s/t_68b5b299c6e88191acb18874dcf54373
