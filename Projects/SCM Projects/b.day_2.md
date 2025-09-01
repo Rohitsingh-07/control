@@ -15,3 +15,15 @@
   - Seasonal Naive: Forecast today = sales on the same weekday last week
  
 - This will be the benchmark and then we will compare this benchmark with our ML model and see how is the performance and if the performance is good we are going to use the ML model
+
+---
+
+2. Feature creation = turning raw data into signal
+- By creating lags, rolling averages, seasonality, calendar features, event/holiday indicators, you transform the dataset into something models can learn from.
+- Example: Instead of just saying “yesterday’s sales = 50,” you also give the model:
+  - Last week same day = 47
+  - 7-day rolling mean = 52
+  - Is today Christmas = Yes
+  - Month = December
+  - Store fixed effect = Store_A
+- These features capture demand patterns, seasonality, and shocks (holidays, promotions).
