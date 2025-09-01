@@ -201,3 +201,4 @@ EDA Link - https://chatgpt.com/s/t_68b5b299c6e88191acb18874dcf54373
 ---
 
 **Day 1 – Features & baselines (2–3h)** Link - https://chatgpt.com/s/t_68b627aa586881919ec5f1fc4d87a44c
+- I asked chatgpt on why is step required - https://chatgpt.com/s/t_68b62b1c9c4481918f01197cba96ef83
