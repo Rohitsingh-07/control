@@ -178,3 +178,20 @@ What is the M5 Forecasting Dataset?
 - Covers a time period of 1,941 days (~5 years) of daily sales.
 - Includes additional features like calendar info, special events, and historical prices, making it very close to a real-world scenario.
 
+---
+---
+
+## EDA
+
+- Import and Load Data
+- Inspect Sales Data
+  - In sales data, we have id, item_id, dept_id, category_id, store_id, state_id and the dates which are in the column from d_1 to d_1913
+  - 1919 columns where 1913 (all the date columns are int64) and the other 6 columns are objects
+- pd.melt is used to convert the wide format data to long format data. This is useful for
+  - Easier Plotting
+  - Simplified Feature Engineering
+  - Makes Merging with other tables easier
+  - Standardizes data for ML
+- Merging with calendar data to get the date
+- Sanity Checks
+  - 
