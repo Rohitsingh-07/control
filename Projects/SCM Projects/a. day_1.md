@@ -202,3 +202,10 @@ EDA Link - https://chatgpt.com/s/t_68b5b299c6e88191acb18874dcf54373
 
 **Day 1 – Features & baselines (2–3h)** Link - https://chatgpt.com/s/t_68b627aa586881919ec5f1fc4d87a44c
 - I asked chatgpt on why is step required - https://chatgpt.com/s/t_68b62b1c9c4481918f01197cba96ef83
+
+<img width="860" height="417" alt="image" src="https://github.com/user-attachments/assets/2d1a8be3-c847-40c1-bfb4-9cd14bb0bfc0" />
+
+- Raw data → Feature Engineering (lags, rolling stats, events, fixed effects)
+- Baselines (Naive, Seasonal Naive) → Benchmarks
+- Features + Baselines feed into Machine Learning models
+- Models are evaluated vs. baselines → best ones go into Inventory Optimization
