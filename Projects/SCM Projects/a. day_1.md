@@ -197,3 +197,7 @@ What is the M5 Forecasting Dataset?
   - 
 
 EDA Link - https://chatgpt.com/s/t_68b5b299c6e88191acb18874dcf54373
+
+---
+
+**Day 1 – Features & baselines (2–3h)** Link - https://chatgpt.com/s/t_68b627aa586881919ec5f1fc4d87a44c
