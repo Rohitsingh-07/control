@@ -15,7 +15,7 @@
   - Seasonal Naive: Forecast today = sales on the same weekday last week
  
 - This will be the benchmark and then we will compare this benchmark with our ML model and see how is the performance and if the performance is good we are going to use the ML model
-
+- Once baselines are in place, every future model (Ridge, XGBoost, LSTM) will be compared against Naive and Seasonal Naive. We need this step to convincingly show improvement
 ---
 
 2. Feature creation = turning raw data into signal
@@ -27,3 +27,5 @@
   - Month = December
   - Store fixed effect = Store_A
 - These features capture demand patterns, seasonality, and shocks (holidays, promotions).
+
+--- 
