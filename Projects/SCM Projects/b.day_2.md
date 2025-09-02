@@ -67,3 +67,7 @@ We'll forecast next-day demand per (store, item)
   3. Models: ARIMA, ETS, Prophet, ML/DL Models
  
 - Time Series Analysis = the study of data over time to understand its patterns (trend, seasonality, cycles, noise) and use that knowledge for explanation and forecasting.
+
+---
+
+
