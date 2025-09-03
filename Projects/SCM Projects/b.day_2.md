@@ -121,3 +121,20 @@ We'll forecast next-day demand per (store, item)
 
 - Lags are like giving the model a memory of the past so it can predict the future. Without lags, the model would only see today’s date and have no idea what happened before.
 - We don’t stop at just lag_1 (yesterday). We add lag_7, lag_14, lag_28 because sales are not only influenced by yesterday but also by recurring weekly and monthly patterns.
+
+---
+
+####### Step 3: Define Baselines
+
+- Naive Forecast: tomorrow = today’s sales (lag_1).
+- Seasonal Naive: tomorrow = same day last week (lag_7).
+
+- lag_1 = yesterday’s sales.
+- So the forecast for today = sales of yesterday.
+- This is the simplest baseline in time series forecasting.
+- If sales were 100 yesterday → predict 100 today.
+
+- lag_7 = sales from 7 days ago (same weekday last week).
+- Why? Because many products have weekly seasonality (think groceries, weekend shopping, etc.).
+- So the forecast for today = sales from the same day last week.
+- If last Monday’s sales = 120 → predict 120 for this Monday.
