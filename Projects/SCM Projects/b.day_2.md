@@ -70,4 +70,54 @@ We'll forecast next-day demand per (store, item)
 
 ---
 
+### Features & Baselines
 
+###### Step 1: Prepare Data (aggregation + split)
+- We'll forecast next-day demand per (store, item)
+- Group sales_long by store_id, item_id, date.
+- Sort by date
+- Train/validation split based on time (not random)
+
+###### Step 2: Feature Engineering
+
+- Why Feature Engineering is important in Time Series
+  - Raw time series data (date, store_id, item_id, sales) by itself doesn’t contain enough information for a machine learning model to learn patterns.
+  - Unlike statistical models (like ARIMA), ML models (like XGBoost, LightGBM, Random Forests, Neural Nets) don’t “know” about:
+    - Time order
+    - Seasonality (weekly, monthly patterns)
+    - Past demand influencing future demand
+    - Special events/holidays affecting sales
+- So, we must create features that encode these time dependencies.
+
+1. Lag features (1, 7, 14, 28 days):
+   - Capture short-term and long-term demand memory.
+   - Example: If sales always spike 7 days later (weekly cycle), the lag helps the model see that.
+2. Rolling mean/std (7, 28 days):
+   - Capture trend (average demand) and volatility (how much it fluctuates).
+   - Example: If an item is steadily trending upward, the rolling mean captures that slope.
+3. Calendar features (day-of-week, month):
+   - Encode seasonality.
+   - Example: More snacks may sell on weekends, more clothes in December.
+4. Event proxy (holiday/event flag):
+   - Capture external shocks.
+   - Example: Sales spike on “Christmas” or during “Black Friday.”
+
+- How this helps later:
+  - When you train your ML model:
+    1. These features act as predictors (X) while sales is the target (y).
+    2. The model learns relationships like:
+       - If it’s Friday, sales are higher.
+       - If lag_7 = 50, today’s sales may be close to that.
+       - If is_event = 1, expect a spike.
+       - If rmean_28 is rising, trend is upward.
+- This way, the model can forecast future sales by looking at historical demand, seasonality, and special events.
+
+- This step is about transforming raw time-series data into machine-readable features. Without it, your model would have no clue about temporal patterns, and forecasting accuracy would be very poor.
+
+- lag_1: Sales yesterday
+- lag_7: Sales last week, same day
+- lag_14: Sales two weeks ago, same day
+- lag_28: Sales four weeks ago (monthly cycle)
+
+- Lags are like giving the model a memory of the past so it can predict the future. Without lags, the model would only see today’s date and have no idea what happened before.
+- We don’t stop at just lag_1 (yesterday). We add lag_7, lag_14, lag_28 because sales are not only influenced by yesterday but also by recurring weekly and monthly patterns.
