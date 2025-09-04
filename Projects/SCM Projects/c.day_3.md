@@ -281,3 +281,131 @@ Steps:
 ---
 ---
 ---
+
+# 📌 Mean Absolute Percentage Error (MAPE) Explained
+
+Imagine you’re still a **weather forecaster** 🌦️.  
+
+This time, instead of just asking **“How far off am I?”**, you want to ask:  
+👉 **“How far off am I, relative to the actual value, in percentage terms?”**  
+
+That’s what **MAPE** tells you.  
+
+---
+
+## 🔹 Step 1: Recall the Errors
+
+Let’s take the same predictions:  
+
+- Monday: Predicted **28°C**, Actual **30°C** → Error = -2  
+- Tuesday: Predicted **25°C**, Actual **27°C** → Error = -2  
+- Wednesday: Predicted **29°C**, Actual **25°C** → Error = +4  
+
+---
+
+## 🔹 Step 2: Take the Absolute Value
+
+- Monday: `|-2| = 2`  
+- Tuesday: `|-2| = 2`  
+- Wednesday: `|+4| = 4`  
+
+---
+
+## 🔹 Step 3: Convert to Percentage Error
+
+Now divide each absolute error by the **actual value**, then multiply by 100:  
+
+- Monday: `(2 / 30) × 100 = 6.67%`  
+- Tuesday: `(2 / 27) × 100 ≈ 7.41%`  
+- Wednesday: `(4 / 25) × 100 = 16%`  
+
+---
+
+## 🔹 Step 4: Take the Mean
+
+Now, average these percentage errors:  
+
+MAPE = (6.67% + 7.41% + 16%) / 3
+MAPE ≈ 10.7%
+
+
+---
+
+# ✅ Interpretation
+
+- MAPE = **10.7%** means:  
+  - On average, your forecasts are **about 10.7% off from the actual values**.  
+- The **lower the MAPE, the better the model**.  
+
+---
+
+# 🔑 Key Things to Know About MAPE
+
+1. **Expressed in %**  
+   - Unlike MAE or RMSE (which are in original units), MAPE is in **percentages**.  
+   - Makes it easy to interpret across different datasets.  
+
+2. **Scale Independent**  
+   - Works well when comparing models across datasets with different units.  
+
+3. **Intuitive for Business**  
+   - Saying “my forecasts are **10% off** on average” is more intuitive than “off by 2.8 units”.  
+
+4. **Limitations**  
+   - ⚠️ **Division by zero problem:** If any actual value = 0, MAPE breaks.  
+   - ⚠️ **Bias towards small actual values:** A tiny denominator can cause a huge percentage error.  
+
+---
+
+# 📊 Example in Real Life
+
+Suppose you predict **monthly sales revenue** 📈:  
+
+- Actual values ($): `[1000, 1200, 1500, 2000]`  
+- Predicted values ($): `[1100, 1150, 1400, 2100]`  
+
+Steps:  
+
+- Errors = `[100, -50, -100, 100]`  
+- Absolute Errors = `[100, 50, 100, 100]`  
+- Percentage Errors = `[100/1000=10%, 50/1200≈4.2%, 100/1500≈6.7%, 100/2000=5%]`  
+- MAPE = `(10% + 4.2% + 6.7% + 5%) / 4 ≈ 6.5%`  
+
+📌 Meaning: Your sales predictions are **about 6.5% off on average**.  
+
+---
+
+# 🆚 MAPE vs MAE vs RMSE
+
+- **MAE:**  
+  - Measures average absolute error (in original units).  
+
+- **RMSE:**  
+  - Penalizes large errors more strongly (in original units).  
+
+- **MAPE:**  
+  - Expresses average error as a **percentage of actuals** (unit-free).  
+
+👉 Use **MAPE** when:  
+- You want an **easily interpretable percentage**.  
+- You’re comparing errors across different scales.  
+
+⚠️ Avoid MAPE if your dataset has **zeros or very small actual values**.  
+
+---
+
+# 🎯 In Short
+
+- MAPE = **Mean Absolute Percentage Error**  
+- Measures the **average percentage difference** between predictions and actuals.  
+- **Lower MAPE = better model**  
+- Super intuitive, but has pitfalls (zero values, small denominators).  
+
+---
+
+👉 Think of MAPE as:  
+**“On average, how far off am I, in percentage terms?”** ✅
+
+---
+---
+---
