@@ -153,3 +153,5 @@ Steps:
 ---
 
 👉 Think of RMSE as your **“average mistake size”** in the same units as your predictions.
+
+- We take the root to get the units back to normal such as MSE would have unit C^2 since it squares but taking a square root gets it back to C. So it is easier to interpret
