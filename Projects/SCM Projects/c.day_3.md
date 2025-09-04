@@ -409,3 +409,132 @@ Steps:
 ---
 ---
 ---
+
+# 📌 Weighted Absolute Percentage Error (WAPE) Explained
+
+Imagine you’re still the **weather forecaster** 🌦️.  
+
+You already learned about **MAPE**: it tells you *“On average, how far off am I in percentage terms?”*  
+
+But there’s a problem ⚠️:  
+- MAPE can **explode** when actual values are very small (because dividing by small numbers gives huge percentages).  
+- Also, MAPE calculates the percentage error **individually for each prediction** and then averages — which can sometimes be misleading.  
+
+👉 That’s where **WAPE** comes in. It’s like a **more stable cousin of MAPE**.  
+
+---
+
+## 🔹 Step 1: Recall the Errors
+
+Take the same forecasts:  
+
+- Monday: Predicted **28°C**, Actual **30°C** → Error = -2  
+- Tuesday: Predicted **25°C**, Actual **27°C** → Error = -2  
+- Wednesday: Predicted **29°C**, Actual **25°C** → Error = +4  
+
+Absolute Errors = `[2, 2, 4]`  
+
+---
+
+## 🔹 Step 2: Sum the Absolute Errors
+
+Add up all absolute mistakes:  
+
+Total Absolute Error = 2 + 2 + 4 = 8
+
+
+---
+
+## 🔹 Step 3: Divide by Total Actuals
+
+Instead of averaging per-point percentages like MAPE,  
+👉 WAPE looks at **total error relative to total actual values**.  
+
+Total Actual = 30 + 27 + 25 = 82
+
+
+Now:  
+
+WAPE = (Total Absolute Error / Total Actual) × 100 </n>
+WAPE = (8 / 82) × 100 ≈ 9.76%
+
+
+---
+
+# ✅ Interpretation
+
+- WAPE = **9.76%** means:  
+  - Across all predictions, the total mistakes add up to **about 9.8% of the total actual values**.  
+- It’s often called the **“overall percentage error”**.  
+
+---
+
+# 🔑 Key Things to Know About WAPE
+
+1. **Also in %**  
+   - Like MAPE, WAPE is expressed as a percentage.  
+
+2. **More Stable than MAPE**  
+   - By using the **sum of actuals** instead of per-point percentages, WAPE avoids blowing up on small values.  
+
+3. **Used in Forecasting (Especially Retail / Supply Chain)**  
+   - Businesses love WAPE because it tells them:  
+     👉 “Overall, my forecast was off by X% of total demand.”  
+
+4. **Sometimes Called “Forecast Accuracy”**  
+   - In industry, people often report:  
+     ```
+     Forecast Accuracy = 100% – WAPE
+     ```
+   - Example: If WAPE = 9.76%, forecast accuracy ≈ 90.2%.  
+
+---
+
+# 📊 Example in Real Life
+
+Suppose you forecast **monthly sales demand** 🛒:  
+
+- Actual sales = `[100, 200, 300, 400]`  
+- Predicted sales = `[110, 190, 310, 390]`  
+
+Steps:  
+
+- Errors = `[-10, +10, -10, +10]`  
+- Absolute Errors = `[10, 10, 10, 10]`  
+- Total Absolute Error = `40`  
+- Total Actual = `100 + 200 + 300 + 400 = 1000`  
+
+WAPE = (40 / 1000) × 100 = 4%
+
+
+📌 Meaning: Your forecasts are **off by about 4% of the total demand**.  
+
+---
+
+# 🆚 WAPE vs MAPE vs MAE
+
+- **MAE:** Average absolute error (in original units).  
+- **MAPE:** Average percentage error (per observation).  
+- **WAPE:** Total error compared to total actuals (aggregate percentage error).  
+
+👉 WAPE is often preferred in business forecasting because it:  
+- Avoids MAPE’s instability with small actuals.  
+- Gives an **overall % error**, which is very interpretable.  
+
+---
+
+# 🎯 In Short
+
+- WAPE = **Weighted Absolute Percentage Error**  
+- Measures **total error relative to total actual values**.  
+- More **stable** than MAPE.  
+- Popular in **retail, supply chain, and demand forecasting**.  
+
+---
+
+👉 Think of WAPE as:  
+**“Overall, my forecasts were off by X% of the total actuals.”** ✅
+
+---
+---
+---
