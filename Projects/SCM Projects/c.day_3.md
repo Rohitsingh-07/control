@@ -155,3 +155,129 @@ Steps:
 👉 Think of RMSE as your **“average mistake size”** in the same units as your predictions.
 
 - We take the root to get the units back to normal such as MSE would have unit C^2 since it squares but taking a square root gets it back to C. So it is easier to interpret
+
+---
+---
+---
+
+# 📌 Mean Absolute Error (MAE) Explained
+
+Imagine again you’re a **weather forecaster** 🌦️.  
+Every day, you predict tomorrow’s temperature, and then reality happens.  
+
+- On Monday, you predicted **28°C**, but the actual temperature was **30°C**.  
+- On Tuesday, you predicted **25°C**, but the actual was **27°C**.  
+- On Wednesday, you predicted **29°C**, but the actual was **25°C**.  
+
+You might wonder: **“How far off am I, on average?”**  
+
+That’s exactly what **MAE (Mean Absolute Error)** tells you.  
+
+---
+
+## 🔹 Step 1: Understand "Error"
+
+- **Error = Prediction – Actual**  
+- Example (from above):  
+  - Monday: `28 - 30 = -2`  
+  - Tuesday: `25 - 27 = -2`  
+  - Wednesday: `29 - 25 = +4`  
+
+---
+
+## 🔹 Step 2: Take the Absolute Value
+
+Why absolute?  
+- To ignore the direction of error (negative or positive).  
+- You only care about **how big the mistake is**, not whether you were high or low.  
+
+So:  
+- Monday: `|-2| = 2`  
+- Tuesday: `|-2| = 2`  
+- Wednesday: `|+4| = 4`  
+
+---
+
+## 🔹 Step 3: Take the Mean
+
+Now, average the absolute errors.  
+
+
+---
+
+# ✅ Interpretation
+
+- MAE = **2.67°C** means:  
+  - On average, your predictions are **about 2.7 degrees off**.  
+  - Lower MAE = better model.  
+  - Higher MAE = worse model.  
+
+---
+
+# 🔑 Key Things to Know About MAE
+
+1. **Always Non-Negative**  
+   - MAE ≥ 0.  
+   - 0 means a perfect model.  
+
+2. **Linear Penalty**  
+   - All errors are penalized equally.  
+   - Example: An error of 10 is exactly twice as bad as an error of 5.  
+
+3. **Same Unit as Target Variable**  
+   - Just like RMSE, MAE is in the same unit as the prediction (°C, dollars, etc.).  
+
+4. **More Robust to Outliers**  
+   - Unlike RMSE, which squares errors (amplifying big mistakes), MAE treats all errors proportionally.  
+   - Example: If one prediction is way off, MAE won’t “blow up” as much as RMSE.  
+
+---
+
+# 📊 Example in Real Life
+
+Suppose you build a **machine learning model** to predict **house prices** 🏡.  
+
+- Actual prices (in $1000s): `[200, 220, 250, 270]`  
+- Predicted prices: `[210, 230, 240, 260]`  
+
+Steps:  
+
+- Errors = `[10, 10, -10, -10]`  
+- Absolute Errors = `[10, 10, 10, 10]`  
+- MAE = `(40 / 4) = 10`  
+
+📌 Meaning: Your model’s predictions are off by **about $10,000 on average**.  
+
+---
+
+# 🆚 MAE vs RMSE
+
+- **MAE:**  
+  - Simpler, more interpretable.  
+  - Treats all errors equally.  
+  - More robust to outliers.  
+
+- **RMSE:**  
+  - Penalizes large errors more strongly.  
+  - Useful when big mistakes are especially costly (e.g., finance, healthcare).  
+
+👉 Rule of Thumb:  
+- Use **MAE** when you want a **straightforward average error**.  
+- Use **RMSE** when **large errors are much worse** than small ones.  
+
+---
+
+# 🎯 In Short
+
+- MAE = **Mean Absolute Error**  
+- Measures the **average size of mistakes** (ignoring direction).  
+- **Lower MAE = better model**  
+- More **robust to outliers** than RMSE.  
+
+---
+
+👉 Think of MAE as your **“average distance from the truth”** in the same units as your predictions.  
+
+---
+---
+---
