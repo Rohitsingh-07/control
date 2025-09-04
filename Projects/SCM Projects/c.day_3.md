@@ -538,3 +538,63 @@ WAPE = (40 / 1000) × 100 = 4%
 ---
 ---
 ---
+
+# 🔍 Model Evaluation: Naive vs Seasonal Naive
+
+You have these metrics:
+
+| Model          | RMSE | MAE  | MAPE (%)      | WAPE (%) |
+| -------------- | ---- | ---- | ------------- | -------- |
+| Naive          | 2.61 | 1.16 | 27,879,996.33 | 84.74    |
+| Seasonal Naive | 2.73 | 1.20 | 29,812,652.05 | 87.22    |
+
+---
+
+## Step 1: Compare the metrics
+
+1. **RMSE (Root Mean Squared Error)**  
+   - Naive = 2.61, Seasonal Naive = 2.73  
+   - Lower is better. ✅  
+   - **Naive slightly better**.
+
+2. **MAE (Mean Absolute Error)**  
+   - Naive = 1.16, Seasonal Naive = 1.20  
+   - Lower is better. ✅  
+   - **Naive slightly better**.
+
+3. **WAPE (Weighted Absolute Percentage Error)**  
+   - Naive = 84.74%, Seasonal Naive = 87.22%  
+   - Lower is better. ✅  
+   - Again, **Naive slightly better**.
+
+4. **MAPE (Mean Absolute Percentage Error)**  
+   - Naive = 27,879,996%, Seasonal Naive = 29,812,652%  
+   - Extremely huge! ⚠️  
+   - This is **not meaningful** — almost certainly due to **very small or zero values in your actuals (`y_true`)**, since MAPE divides by `y_true`.
+
+---
+
+## Step 2: What you can conclude
+
+- **MAE is the smallest in absolute terms**, yes — meaning **on average, the predictions are off by ~1.16 units**.  
+- RMSE is slightly higher because it **penalizes larger errors** more than MAE.  
+- WAPE is reasonable (~85%), showing that **overall errors are ~85% of total actuals**.  
+- MAPE is **completely blown up** — ignore it in this case because some actual values are zero or very small.
+
+✅ **Key takeaway:**  
+- Between Naive and Seasonal Naive: **Naive performs slightly better** in terms of RMSE, MAE, and WAPE.  
+- MAPE is unreliable here due to data scale issues.
+
+---
+
+## 💡 Rule of thumb when evaluating models
+
+- Look at **MAE and RMSE** for numeric accuracy.  
+- Look at **WAPE** for business/aggregate-level errors.  
+- Ignore **MAPE** if your actuals contain zeros or tiny numbers.
+
+---
+
+If you want, I can help you **plot these errors visually** to see which model is actually performing better across your validation set — sometimes the numbers alone don’t tell the full story.
+
+---
