@@ -40,4 +40,4 @@ def clean_text_column(df, column_name="Text"):
     return df[column_name].astype(str).apply(_clean)
 ```
 
-
+- `import re`
