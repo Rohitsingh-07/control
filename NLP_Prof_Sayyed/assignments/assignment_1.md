@@ -55,4 +55,40 @@ Why Use re?
 - Transform data (replace or split text with flexible rules).
 - Super useful in data cleaning, NLP, and web scraping.
 
+More info - https://chatgpt.com/s/t_68bc46e512b0819180d34f8eedb539fd
 ---
+
+- `from bs4 import BeautifulSoup` bs4 is the Beautiful soup library, used for parsing and cleaning HTML or XML data
+- BeautifulSoup is the class inside bs4, it takes raw HTML and parses it into a structured format that we can easily search, clean and manipulate, basically a structured version of the messy HTML text
+- Once text is parsed, you can search, navigate, or clean it easily.
+
+Major Functions / Uses of BeautifulSoup
+- Remove HTML tags
+- Parse HTML into a tree
+- Find elements
+- Find all elements
+- Modify or clean HTML
+
+Why Use Beautiful Soup?
+- To Parse and Extract Text from HTML / XML
+- To Navigate Webpage Structure Easily
+- To Clean Messy Data
+- Works with Web Scraping Tools
+  - requests → to fetch the webpage.
+  - pandas → to put extracted data into DataFrames.
+  - selenium → to scrape dynamic pages.
+
+---
+
+- We create a function clean_text_column that will clean the text inside one column of a pandas dataframe
+- We create a helper function _clean that processes one single text string at a time.
+- Uses BeautifulSoup to remove any HTML tags.
+- Removes everything except letters (a–z, A–Z) and spaces.
+- Gets rid of numbers, punctuation, emojis, and special characters.
+- replaces multiple spaces, tabs, or newlines with a single space.
+- removes any leading/trailing spaces.
+- Returns the cleaned text string.
+- Takes the DataFrame column (df[column_name]).
+- Converts everything in it to strings (astype(str)), so it doesn’t break on numbers/NaN.
+
+
