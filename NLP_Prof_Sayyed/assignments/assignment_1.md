@@ -40,4 +40,19 @@ def clean_text_column(df, column_name="Text"):
     return df[column_name].astype(str).apply(_clean)
 ```
 
-- `import re`
+- `import re` is module in python is all about regular expressions (regex), which are patterns we use to search, match, and manipulate text.
+- `re.match(pattern, string)` Match only at the **beginning** of the string.
+- `re.search(pattern, string)` Looks for the first occurrence of the pattern anywhere in the string.
+- `re.findall(pattern, string)` Returns a list of all non-overlapping matches in the string.
+- `re.finditer(pattern, string)` Like findall, but returns an iterator of match objects (gives positions too).
+- `re.sub(pattern, repl, string)` Replaces all matches of the pattern with something else.
+- `re.split(pattern, string)` Splits a string wherever the pattern matches.
+- `re.compile(pattern)` Compiles a regex into a reusable object (faster for repeated use).
+
+Why Use re?
+- Clean messy text (remove unwanted characters, extract useful parts).
+- Validate input (emails, phone numbers, passwords).
+- Transform data (replace or split text with flexible rules).
+- Super useful in data cleaning, NLP, and web scraping.
+
+---
