@@ -51,4 +51,18 @@
 
 <img width="1915" height="932" alt="image" src="https://github.com/user-attachments/assets/ac375427-1875-4a83-8f57-8dae99e76f42" />
 
+- And check for every one of them, whether it's closer to the red or the blue cluster centroid for the new locations. And then we will associate them which are indicated by the color again, every point to the closer cluster centroid. And if you do that, you see that the field points change color.
+- So for example, this point is colored red, because it was closer to the red cluster centroid previously. But if we now look again, it's now actually closer to the blue cluster centroid, because the blue and red cluster centroids have moved.So if we go through and associate each point with the closer cluster centroids, you end up with this. And then we just repeat the second part of K-means again. Which is look at all of the red dots and compute the average. 
+- And also look at all of the blue dots and compute the average location of all of the blue dots. And it turns out that you end up moving the red cross over there and the blue cross over here. And we repeat.
+- Let's look at all of the points again and we color them, either red or blue, depending on which cluster centroid that is closer to. So you end up with this. And then again, look at all of the red dots and take their average location, and look at all the blue dots and take the average location, and move the clusters to the new locations.
+- And it turns out that if you were to keep on repeating these two steps, that is look at each point and assign it to the nearest cluster centroid and then also move each cluster centroid to the mean of all the points with the same color.
+- If you keep on doing those two steps, you find that there are no more changes to the colors of the points or to the locations of the clusters centroids. And so this means that at this point the K-means clustering algorithm has converged.
+
+<img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/d4cec64e-95bd-4c6a-8c74-0c01edc1ac93" />
+
+- Because applying those two steps over and over, results in no further changes to either the assignment to point to the centroids or the location of the cluster centroids. In this example, it looks like K-means has done a pretty good job. It has found that these points up here correspond to one cluster, and these points down here correspond to a second cluster.
+- So now you've seen an illustration of how K-means works. The two key steps are, assign every point to the cluster centroid, depending on what cluster centroid is nearest to.
+- And second move each cluster centroid to the average or the mean of all the points that were assigned to it. In the next video, we'll look at how to formalize this and write out the algorithm that does what you just saw in this video.
+
+--- 
 
