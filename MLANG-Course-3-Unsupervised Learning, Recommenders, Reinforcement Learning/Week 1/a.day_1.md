@@ -41,7 +41,9 @@
 - And it will assign each of these points to whichever of the cluster centroids It is closer to. I'm going to illustrate that by painting each of these examples, each of these little round dots, either red or blue, depending on whether that example is closer to the red or to the blue cluster centroid.
 - So this point up here is closer to the red centroid, which is why it's painted red. Whereas this point down there is closer to the blue cluster centroid, which is why I've now painted it blue. So that was the first of the two things that K-means does over and over. Which is a sign points to clusters centroids.
 <img width="1908" height="934" alt="image" src="https://github.com/user-attachments/assets/25c6f04e-7ab2-42ba-8a78-5cd058d96635" />
+
 ---
+
 <img width="1893" height="935" alt="image" src="https://github.com/user-attachments/assets/e4b8f972-2732-4010-82c7-8cbf259770c5" />
 
 - The second of the two steps that K-means does is, it'll look at all of the red points and take an average of them. And it will move the red cross to whatever is the average location of the red dots, which turns out to be here. And so the red cross, that is the red cluster centroid will move here. And then we do the same thing for all the blue dots. Look at all the blue dots, and take an average of them, and move the blue cross over there.
