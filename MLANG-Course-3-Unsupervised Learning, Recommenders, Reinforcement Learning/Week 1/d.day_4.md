@@ -30,4 +30,7 @@
 
 - Anomaly detection is one of those algorithms that is very widely used even though you don't seem to hear people talk about it that much. I remember the first time I worked on the commercial application of anomaly detection was when I was helping a telco company put in place anomaly detection to see when any one of the cell towers was behaving in an unusual way. Because that probably meant there was something wrong with the cell tower and so they want to get a technician to take so hopefully that helped more people get good cell phone coverage. And I've also used anomaly detection to find fraudulent financial transactions And these days I often use it to help manufacturing companies find anomalous parts that they may have manufactured but should inspect more often. So it is a very useful tool to have in your tool chest. And in the next few videos we'll talk about how you can build and get these algorithms to work for yourself.
 - In order to get anonymous detection algorithms to work, we'll need to use a Gaussian distribution to model the data p of x. So, let's go on to the next video to talk about Gaussian distributions.
-- 
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
