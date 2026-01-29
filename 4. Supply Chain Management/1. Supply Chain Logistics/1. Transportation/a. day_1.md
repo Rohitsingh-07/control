@@ -375,3 +375,256 @@ The Largest Air Cargo Carriers
 ###########################################################################################################
 ###########################################################################################################
 
+## Containers on a Train
+
+- [SOUND] Containers on a train. Intermodal means that we take a container and put it on a train such as the one moving behind me. One of the most exciting concepts in transportation is intermodal. There we combine train and truck to use both modes most efficiently. We gain an advantage by using truck for pickup and delivery. And we get to use rail for the long haul, where it is much cheaper because rail is very fuel efficient and cost effective. The speed advantage a truck has over short distances does not apply to long distances.
+- Rail is not that much slower but it is much cheaper. And we can then, at the destination, move onto another truck for final delivery. This form of intermodal transportation maximizes the advantages of one mode, and minimizes the disadvantages of the other mode. So, we use trucking where it is more efficient. We use rail, where it's more efficient. And, the whole transportation overall becomes cheaper and just as convenient as before. As a basic rule, whenever we use containerized freight, we can actually seamlessly transfer from one mode to another.
+- Rail infrastructure actually pretty exciting. Not only do you have railyards where we have trucks driving in. We take the container, put them on the rail car directly, but we also have the trains themself. And I actually spent all of ten minutes learning how to drive the train. I broke the speed limit twice, so I'm not sure you want me driving your train, but I can do it. [SOUND] The other advantage that rail has is that we can use double-stack containers to double the capacity of the train. So there's a lot of innovation even in rail which is a very old form of transportation.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Objectives, Summary, and Further Information on Containers on a Train
+
+Containers on a Train 
+Lecture objectives
+What is intermodal?
+
+Why use different modes together?
+
+What makes it work?
+
+Lecture Summary
+What is intermodal?
+Most products have the ability to trade time versus cost. As a basic rule - if the cargo comes in full containers then it is a good candidate for intermodal. The key to intermodal is the use of containers and its seamless transfer from one mode to another. Think about it this way – if we can easily move freight from one truck to another then we can simply substitute another mode of transportation that is more efficient on that part of the lane - the cargo in the container stays untouched.
+
+Advantages:
+
+On long distances rail transportation has a significant advantage over truck in terms of fuel efficiency – which translates into a large cost advantage.
+
+On long distances (over 500 miles) rail is not much slower than truck
+
+Accessibility: by combining the advantages of rail and truck, the freight can reach any spot a regular truck could reach
+
+Further Reading
+Intermodal Association of North America
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Express Delivery
+
+- Express delivery. There are three global giants that dominate the global transportation landscape. DHL, FedEx, and UPS are powerhouses when it comes to transportation. The way they make it work is they have local networks of terminals spread throughout the world. We're here in front of a UPS terminal. As you see here, we have small pickup and delivery vehicles. They not only deliver products to local customers, but also pick up products from them.
+- In the back of the building, here we see long haul vehicles right back there, with 53 foot trailers behind them. They're used to move freight over long distances, connecting one terminal to the other. So what happens in a building like this? >> What happens in a building like this? >> Yeah. >> Well, a lot, a lot, everything. In the morning, see, when you come in, they do the unloading and then loading.
+- >> Yeah, okay. >> So there's really a large volume of packages goes out within a few hours. >> Awesome, I see all of the trucks on the road around 8 AM. >> Yeah, they have a lot of them. I think we have 200 or 250 small trucks going out in the morning. >> Wow. What happens at those local terminals is goods come in from all over the world.
+- They get consolidated and then sent to individual customers. They also receive items from local customers, sort them, and then ship them out all over the world. And the way that works is through different modes of transportation. We use air most often in these cases because a lot of the goods they ship are time sensitive. They also use motor freight because it's a ubiquitous mode, and we use it all over the world. And finally, they started using intermodal rail because it is very cheap and not that much slower. To connect a whole network, we need different pieces of equipment.
+- We need our local pickup and delivery vehicles, which most of you have seen on your streets. We need the local terminals. We need a global network of airplanes and airports that connect the different local terminals. And we need the ability to use other transportation provider when we do not have that capacity. And that is how these global giants make logistics happen all over the world.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Objectives, Summary, and Further Information on Express Delivery
+
+Express Delivery
+ Lecture Objectives
+How do express delivery firms integrate different modes?
+
+Cost structure is majority fuel and driver wages
+
+Infrastructure is made up of vehicles and terminals
+
+Lecture Summary
+Express delivery firms use several modes to the best of their advantage:
+Rail is the cheapest and reasonably fast over long distances
+
+Motor is fast for short distances and can pickup and deliver everywhere
+
+Air is fastest and cost is justified for certain items.
+
+The general purpose of these terminals is fourfold:
+To receive shipments from across their network
+
+To send individual packages to customer
+
+To collect individual packagers from shippers
+
+To route packages to their destinations
+
+Further Reading
+Express Delivery Companies have grown into full-fledged logistics service providers
+ 
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Express Delivery Firms Background
+
+For those of you interested in history, this is a "
+A Brief History of The Package Delivery Industry
+"    
+Here is a nice overview of the Express Delivery Industry published by Supply Chain Digital about the 
+"Top 10: Shipping Companies"
+There was a really interesting article published by Popular Mechanics about "Which Shipping Company Is Kindest to Your Packages?"
+We mailed a bunch of sensors on an epic journey to find out which shipping company is the most careful with your packages. Here's what we found...
+
+ 
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Comparison of Transportation Modes
+
+Speed
+Truck: approximately 50 miles (or 80 kilometers) per hour over the highway for up to 500 miles (800 kilometers)
+
+Train: approximately 30 miles (or 50 kilometers) per hour over almost any distance.
+
+Air: upwards of 200 miles (or 320 kilometers) per hour for distances of more than 500 miles (800 kilometers), including ground operations.
+
+Distance
+Truck: up to 500 miles (800 kilometers) is the ideal distance, but there are still advantages over the other modes up to 750 miles (1200 kilometers).
+
+Train: for distances of more than 750 miles intermodal has some speed advantages, but the average distance for intermodal is somewhere around 1,700 miles.
+
+Air: at least 500 miles (800 kilometers) but typically more than 2000 miles.
+
+Cost
+Truck: 
+current rates
+ are highly variable, but $1.50 per mile is a reasonable starting value for a TL shipment
+
+Rail: intermodal freight shipments are typically much cheaper than TL and a common rule of thumb is about 60-80% of the price of a TL shipment.
+
+Air: typically we consider air freight to be about 6 to 8 times more expensive than truck.
+
+Further reading:
+This is a 
+great report
+ about intermodal and how it compares to trucking
+
+Current truck rates
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Transportation Assignment
+
+Please complete the following:
+
+Calculate the distances and time between the locations mentioned on the tracking statement.
+
+Identify the role that each leg of the journey plays (e.g. pick-up, line haul, delivery, etc.).
+
+Identify the mode of transportation that is likely used.
+
+Explain the routing between origin and destination (e.g. how much of a straight line between origin and destination).
+
+Analyze the efficiency of the routing (e.g. why the company likely chose this routing).
+
+Express any areas of difficulty.
+
+Reflect on what you learned in this assignment.
+
+FedEx Example:
+
+Date/Time          Activity
+                                Location 
+
+ 
+
+Wednesday 
+
+10:04 am              Shipment
+information sent to FedEx                       
+
+4:00 pm                Picked
+up                                            ROGERS,
+MN
+
+5:54 pm                Arrived
+at FedEx location              ROGERS, MN
+
+ 
+
+Thursday 
+
+1:37 am Left FedEx
+origin facility                ROGERS, MN
+
+ 
+
+Sunday 
+
+3:47 pm                Arrived
+at FedEx location              HAGERSTOWN,
+MD
+
+9:34 pm                Departed
+FedEx location              HAGERSTOWN, MD
+
+ 
+
+Monday 
+
+4:52 am At local
+FedEx facility                      NORTH
+WALES, PA
+
+7:30 am On FedEx
+vehicle for delivery     NORTH WALES, PA
+
+1:56 pm                Delivered                                            VALLEY
+FORGE, PA
+
+ 
+
+ 
+
+UPS Example:
+
+Day/Time            Activity                                                 Location
+
+ 
+
+Tuesday
+
+10:27 AM             BILLING
+INFORMATION RECEIVED 
+
+09:01 PM             ORIGIN
+SCAN                                    WINDSOR LOCKS, CT 
+
+09:37 PM             DEPARTURE
+SCAN                           WINDSOR LOCKS, CT 
+
+ 
+
+Wednesday
+
+12:54 AM             ARRIVAL
+SCAN                                  PARSIPPANY, NJ 
+
+03:38 AM             DEPARTURE
+SCAN                           PARSIPPANY, NJ 
+
+05:44 AM             ARRIVAL
+SCAN                                  WEST CHESTER, PA 
+
+ 
+
+Friday
+
+05:29 AM             OUT
+FOR DELIVERY                          WEST CHESTER, PA 
+
+01:36 PM             DELIVERED
+                                         KING OF PRUSSIA, PA 
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
