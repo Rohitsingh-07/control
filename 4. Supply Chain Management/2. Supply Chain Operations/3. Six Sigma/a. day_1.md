@@ -14,5 +14,13 @@
 ###########################################################################################################
 ###########################################################################################################
 
+## DMAIC and the Define Stage
 
-- 
+- DMAIC and the Define Stage. To achieve the six sigma level of quality, companies have used a standardized process to drive their improvement projects. The DMAIC cycle is made up of five stages Define, Measure, Analyze, Improve, and Control. This has been used by thousands of companies all over the world to achieve near perfection. Step one, define. In the first step, define, we have to set our goals for the improvement effort. In other words, we have to clearly state how this problem affects the customer.
+- Then we have to list and gather our available resources, build our team and establish a timeline. Let me show you how this works in an example. Assume we already have a logistics network with three warehouse, trying to supply to ten different customers throughout the United States. But our goal has to be to match Amazon's Prime delivery service, which promises customers they receive their shipments in two days. [SOUND] Now with this current network, using ground delivery, it is not possible. So our goal for this project will be to achieve two-day delivery with the fewest number of warehouses possible. To finish up the define stage, we need to create a project charter.
+- This is used in many organizations as a formalized document that shows what the project is about, what it's trying to achieve, and how it's trying to achieve it. There are many formats for this project charter. But typically you'd have something about the goals and objectives, the scope of the project, project milestones, and a projected budget.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
