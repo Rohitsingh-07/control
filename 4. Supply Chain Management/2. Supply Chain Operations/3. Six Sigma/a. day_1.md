@@ -50,3 +50,15 @@
 
 ## Screencast of DMAIC and the Improve Stage
 
+- DMAIC and the Improve Stage. So here we're back to our map of our logistics network with our ten customer destinations and our three warehouses. In the previous stage, we recognized that we needed two additional warehouses to be able to service all of our ten customer locations within two driving days. Therefore, we came up with two additional locations, one in Redlands, California and the other one in Lakeland, Florida which are going to serve as our new distribution centers. So in this stage, we're going to improve our logistics network by actually taking these addresses and placing them on the map. So here we have the California one. We're going to add it to the map.
+- And then what I'm going to do is, I'm going to throw them here. I'm going to make it, look like a warehouse. Okay. So here we see our fourth warehouse, just outside of Los Angeles. And it will be able to reach, Destinations such as, San Francisco. Or Phoenix, in about 300 miles. In addition actually, if you look, Las Vegas is only 200 miles away, so we have most of the southern part of the West Coast, which is a large population center, that we can service out of this one warehouse.
+- Now let's take a look at our Miami problem and there we picked the Lakeland, Florida distribution center. And I'll do the same thing. Type in the address. There we are. And incidentally, Google knows there is an Amazon distribution center here already. Okay. So we've added it here.
+- Let's just make it look like a warehouse. And there we have it. Now what we can beautifully see here is that not only can we reach most of Florida fairly easily. Miami is somewhere around 200 miles away. Orlando, less than 60 miles. Tampa, 30, 40 miles. Jacksonville, 160 miles.
+- Atlanta, less than 500 miles, as we hoped. As well as some of the South Carolina destinations and even into Southern Alabama. There's only one thing to do at this point. I would just, like to rename this Warehouse 4. And this we are going to call Warehouse 5. And that's it. This is our new and improved distribution and logistics network, consisting of five warehouses, servicing ten distinct customer locations.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Screencast of DMAIC and the Control Stage
+
