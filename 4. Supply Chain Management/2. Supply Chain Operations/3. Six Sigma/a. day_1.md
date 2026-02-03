@@ -62,3 +62,66 @@
 
 ## Screencast of DMAIC and the Control Stage
 
+- DMAIC and the control stage. We have looked at our new logistics network and added two additional warehouses in order to get a delivery time to each one of our ten customer locations of two days or less. That was our goal. That's what we clearly identified in the defined state. And now we've gotten to the end of the DMAIC cycle. In the control stage, we need to make sure that this warehousing network, consisting of these five warehouses, will be able to deliver to all of our customers within five days. In order to control this goal that we set, we're going to have to track data as it comes in and make sure that our goals that we set out are still being kept.
+- So here, I have a set of data that we are using, so this is demand for each one of the warehouses. And this is the lead time for each customer shipment and as we can see here very clearly, all of the deliveries are done within two days. So, it's actually a good thing for us that we setup this warehousing network. If, for whatever reason over time, we're not able to maintain our two hour delivery window. Or for example, there is much more demand than we anticipated in one warehouse over time, we're outgrowing it. We need to rethink this warehousing network. So what I've shown you over the course of these lectures is, how to use the DMAIC cycle to improve a process.
+- In this case, it was a logistics network and partly it was nice because we're able to build on something that we covered in the supply chain logistics course, but it could be on any other topic. And in the final assignment, you will be able to use your creativity to improve a process that you deem needs improvement. Could be something very simple, could be something more complex. Regardless, what I would like you to be able to do is, use these five steps, to come up with a solution that makes the process better and is sustainable over the long term.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Summary of the DMAIC Example
+
+Define
+Our goal is to improve the existing warehouse network so that we can promise each customer a two day delivery lead time. In order to achieve that, we should locate each warehouse within 500 miles of our ten target destinations.
+
+Measure
+The current logistics network has two locations that are further than 500 miles from the customer locations:
+
+Los Angeles
+
+Miami
+
+Analyze
+We consider several warehouse locations to deliver to our Los Angeles and Miami customers.
+
+Improve
+We picked the two locations that improve our logistics network the most and meet our overall goal of delivering to customers within two days.
+
+Control
+Going forward we need to monitor logistics performance. Here is an example of a control table:
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+Six Sigma Examples - https://www.sixsigma-institute.org/What_Is_Six_Sigma.php
+
+## Six Sigma Case Studies
+
+- Assignment Topic: Six Sigma Cases
+
+You can choose from the following cases that are listed at https://www.isixsigma.com/category/case-studies/ . Be sure to click through to the full project at the bottom.
+
+Setup instructions:
+
+Before you begin, you will need to thoroughly read the case study. I would like you to think about the following questions:
+
+What issue did the organization face and why did it need to be addressed?
+
+How did they show that there was a problem?
+
+What analysis did they perform and what did that analysis indicate?
+
+How did they address the problems?
+
+What did they do to ensure the problem did not reemerge? 
+
+How to submit:
+
+For each of the questions above, please prepare a short answer with examples from the case. The answer to each question should not be longer than 250 words.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
