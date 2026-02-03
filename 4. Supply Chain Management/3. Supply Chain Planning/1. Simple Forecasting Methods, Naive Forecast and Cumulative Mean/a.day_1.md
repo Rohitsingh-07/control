@@ -125,3 +125,38 @@ In this example, I will show you how to implement the naive forecast. There are 
 
 ## The Cumulative Mean
 
+- The cumulative mean. In the naive method, we assumed that only the last piece of information is useful in predicting the future, but what if we think that all prior data is useful in our forecast? That is the idea behind the cumulative mean. We take all of the data that we have, average it, and that is going to represent our forecast. Now let's look at the math. The cumulative mean is, again, denoted by F sub t, which is what we're trying to forecast. And that is made up of the sum of demand, and that sum is going from the very first period we have, I=1, all the way to T-1, which is the very latest time period we have available.
+- And we are going to divide that by how many periods we had summed together and that would be t-1, and that gives us an average over all periods. So what this means on time frame is, if we are right here at t, then we are going to average all the demand from the prior periods and make that our forecast right here, a time t. So, how good is the cumulative mean? Well, it may work well in some situations and it's really the antithesis to the naive method. Where's the naive method? Was it very responsive, but also picked up a lot of noise? This forecast is very stable and averages out all the noise, so it really filters it out.
+
+<img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/f8b7c531-3cb3-425a-85da-d2e37901ca17" />
+
+- If you have a situation where your overall demand is built only by the level and noise, no other patterns, then this is a good forecast to use. And advantage is, as I said, it's stable. But it also may not recognize all the pattern, and you need to be careful how to use it. The big assumption in the cumulative mean is that all prior data is equally useful. That may not be very robust, but it is the assumption. And there are other methods that may take into account that flaw in the cumulative mean.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Cumulative Mean Example
+
+In this example, I will show you how to implement the cumulative mean forecast. There are several steps you need to complete:
+
+<img width="1091" height="555" alt="image" src="https://github.com/user-attachments/assets/e92ecc18-b433-4958-8163-834b92b0f578" />
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Cumulative Mean Screencast
+
+- Cumulative Mean Screencast. The cumulative mean is a forecast method that is taking an average of all prior demand. So as we discussed in the lecture, as we go through time, and there are more and more periods available, our average rows over more and more data points. In order to implement it, it's actually quite simple. There's only a few little things that we need to be careful about. So the first period in which we can implement accumulative mean is really period three, because before then, we don't really have anything to average together. And in that period, we have two terms that we average together.
+- As we go through the time, we will have more and more periods to average together. So, In order to get an average, we type in the word average, open the parenthesis, and then select the two cells that we want to average together. Now, if I were to just hit enter at this point, what will happen later as I try to copy that formula across the multiple rows is that those two prior periods of demand are all that I'm going to average. But that's not what I want. I want it to always start at this cell, B2, and then go up until the last period of demand that we have just observed. So in order to achieve that, I have to put in a dollar sign in between the B and the 2. You can also put 1 in front of the B for good measure if you wanted to, but that's optional, it works either way.
+- So once I hit enter, we have our average. You'll see the dollar signs in here, and now I can copy this formula down and copy it all the way here, and here is our cumulative mean. So now, one thing jumps out at you right away, I hope. We see a lot of decimals because the average is not always going to be an integer, so that is something that we need to take care of. And one recommendation I have is whenever you have a forecast, try to forecast in the same way that demand comes in. So in this case, it's integer values. There's no halves, or quarters, or any decimals.
+- So we want to make sure your forecast comes out exactly the same way. And there's this round function, which basically converts our result into a rounded output where you don't want any decimal points. So there's that, and if I copy this formula down, here is our result, and there you go. Now, some of you at this point may wonder, why don't you just remove the decimals with this part here? Well, you could do that. And here we see there are no decimals. So I could remove them that way.
+- However, in my calculations later on, they will still be there. And as we calculate accuracy, for example, it's still going to impact it. So it is better to have a clean forecast just the way you would use it rather than have all those decimal points hidden in there. So here we have a chart of our demand versus our accumulative mean forecast. And what see here is that over time, our forecast becomes basically like a flat line because we have more and more periods that we can average together. And that each new period provides very little weight on the overall average. So that's basically one of the things that you get with accumulative mean.
+
+<img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/919483b6-ba45-4671-bbe8-2c592cd4a810" />
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
