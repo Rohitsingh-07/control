@@ -31,3 +31,4 @@ https://hbr.org/2010/10/dont-tweak-your-supply-chain-rethink-it-end-to-end
 ###########################################################################################################
 ###########################################################################################################
 
+- Final Course is a capstone where the case study of Medical Devices of MTC is studied. https://www.coursehero.com/file/84746789/MTC-Case-Studypdf/ 
