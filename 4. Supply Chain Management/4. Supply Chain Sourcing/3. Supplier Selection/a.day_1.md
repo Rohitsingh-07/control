@@ -36,3 +36,35 @@ https://hbr.org/2011/12/dont-let-your-supply-chain-control-your-business
 ###########################################################################################################
 ###########################################################################################################
 
+## Sourcing at Johnson & Johnson
+
+Let's examine how Johnson & Johnson (J&J) views sourcing as part of their firm's strategy. I believe this is one of the better examples as they publish a lot of their policies regularly. On a side-note, this is a great feat of transparency!
+
+So, here we go:
+
+The Credo
+One of the key pieces guiding J&J is their https://www.jnj.com/our-credo Among other things, they specifically mention that their "suppliers and distributors must have an opportunity to make a fair profit."
+
+Citizenship and Sustainability Practices
+As they mention, their credo is what guides them and their practices is what makes the credo into reality. Specifically, they have three strategic pillars: people, places, and practices. Among those are a number driven by sourcing:
+
+https://www.jnj.com/caring/citizenship-sustainability/strategic-framework/Supplier-Diversity
+
+"Johnson & Johnson is committed to working with small businesses and diverse suppliers that support our growth objectives by providing innovative solutions to our commercial, supply chain and R&D efforts. Supplier diversity progress is reported to the Johnson & Johnson Executive Committee on a regular basis." 
+
+This shows that diversity is one of the critical missions that sourcing has to accomplish.
+
+https://www.jnj.com/caring/citizenship-sustainability/strategic-framework/supply-chain : this area is made up of three principles.
+
+https://www.jnj.com/caring/citizenship-sustainability/strategic-framework/supply-chain-management . "Taking responsibility for the environmental and social impacts of our products begins with product design and development, and then extends to the sourcing, manufacturing and delivery of our products to our customers." This shows how deeply embedded sourcing is in the whole product development process.
+
+https://www.jnj.com/caring/citizenship-sustainability/strategic-framework/supplier-standards . "Our commitment to human rights extends to our business partners around the world. Our https://www.jnj.com/sites/default/files/pdf/Responsibility-Standards-for-Suppliers.pdf for Suppliers outline compliance expectations for suppliers and external manufacturers." While not completely uncommon, the responsibility standards show the commitment to fairness and transparency.
+
+https://www.jnj.com/caring/citizenship-sustainability/strategic-framework/procurement-practices . "Our Procurement Sustainability Initiative (PSI) provides a foundation to guide our procurement professionals in their purchasing decisions and gives them a framework to provide guidance to influence our suppliers." Take a look at how specific they are about what they achieved.
+
+Finally, a lot of information can be found in the https://www.jnj.com/sites/default/files/pdf/cs/2015-JNJ-Citizenship-Sustainability-Report.pdf report
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
