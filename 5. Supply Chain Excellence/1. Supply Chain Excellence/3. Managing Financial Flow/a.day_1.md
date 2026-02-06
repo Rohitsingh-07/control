@@ -114,3 +114,119 @@ https://corporatefinanceinstitute.com/resources/knowledge/accounting/balance-she
 ###########################################################################################################
 ###########################################################################################################
 
+## The Income Statement
+
+<img width="1914" height="950" alt="image" src="https://github.com/user-attachments/assets/25a72741-b727-4159-b5b7-09028d66cf44" />
+
+- So now let's talk about the income statement. When we look at the income statement, it follows again, a fairly standard formula. We always start off with revenue minus cost of sales or cost of goods sold, and that gives us a gross profit. Gross profit is the number of dollars that are left over after subtracting the direct costs of making the product. So it doesn't include all of the costs but it includes the costs that are related to making the product that we're selling. Then we subtract from that our sales, general, and administrative costs, sometimes they're known as overhead costs, and those are the majority of the other costs that are related to the company. So it could be things that are not directly attributable to making the product, things like the building, utilities, marketing expenses for the company, etc, salaries for management and so on.
+- Then what's left after that is the operating profit, earnings before interest and taxes. The reason why that is typically a specific line is because that is the pure amount of profit that a company made and things that are not necessarily in its control such as interest expenses and income taxes that they paid on, the profit, we'll take those out later. So operating profit typically gives you a pretty good idea of how management is doing in terms of producing a profit. So as mentioned, we then take out interest expenses, pretax income as calculated after taking out the interest, and then you pay income taxes on that pretax income, and what is left over is the net income. So typically the formula for an income statement is revenue minus expenses equals profit. Very often people refer to the bottom line. So the bottom line is the profit that we make and visually that corresponds to the income statement.
+
+<img width="1918" height="969" alt="image" src="https://github.com/user-attachments/assets/935fa39e-1de8-4f31-855b-d9da23929571" />
+
+- The last line on the income statement is the net income, and that is owned by the shareholders because that's who owns the company. What can you do with it? Well, there are typically three ways net income can go. One, it can go to dividends, which are annual or quarterly payments that go to the owners of the company or you can use it to buy back shares, so as you limit the number of shares that are floating around in the world, or the third one is retained earnings, and that's money that the company keeps for itself and then re-invest in it to grow in the future. So those are the three things that a company typically would do with net income. It also tells you a lot about what the company sees in its future effort, wants to keep a lot of its earnings to reinvest in itself, that probably tells you that they're fairly confident that in the future they'll be able to grow further because you move money in that direction. If you have a company where new investment takes a long time to really materialize into anything, maybe the owners of the company say, well, just give me a dividend, I'd rather take the cash now because I don't necessarily know what will happen in the future. So it's an interesting number to watch.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Income Statement
+
+https://corporatefinanceinstitute.com/resources/knowledge/accounting/income-statement/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Cash Flow Statement
+
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/81c93639-2eac-45cb-9efa-8fd11cd6edf6" />
+
+- Let's talk about the cash flow statement. The cash flow statement looks at the sources and uses of cash during an accounting period. Typically, accounting periods in the US are either quarters or years, both. Pretty much every company issues quarterly statements as well as the yearly statement. The other important feature of the cash flow statement is that it reconciles the balance sheet and the income statement, it makes those two match up. The main question it answers is, what happens to the cash account? So what does it mean?
+- Well, if you made money, that's great. However, if those earnings are really materialized into cash, that is a lot more powerful. The reason why I'm saying that, typically accounting looks at things that happened. So for example, you made a sale. Now in some businesses, when you make a sale, you automatically have cash. But in others, it doesn't mean that you necessarily have cash in your hand. So if you, for example, have a business-to-business relationship, you allow your customers to pay within a certain number of days.
+
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/bbc09a09-a9da-48dc-9731-b2e2487a2a2f" />
+
+- Well, you might have booked the sale but you didn't get the cash yet, and that's what the cash flow statement is going to account for. That's why I said earlier, it reconciles the income statement and the balance sheet. The other thing about cash is if you have the cash available, that is going to allow you some flexibility. You'll be able to do things, you'll be able to reinvest in your business, for example. Now when I say cash is king, I don't necessarily mean that you have the cash sitting around in your bank account, but it's about having access to cash. If you can access cash quickly, that is what I'm talking about. Maybe you don't necessarily even want to have as much cash sitting around in bank account, sometimes that's not a desirable thing.
+
+<img width="1919" height="933" alt="image" src="https://github.com/user-attachments/assets/e290c9fe-c05d-43d9-a82c-e0b66e71534f" />
+
+- So a simple cash flow statement looks as follows. It's divided into three types of activities, we have operating activities, we have investing activities, and we have financing activities. So operating activities, that's when we look at net income, and then we take out things like depreciation, amortization, and changes in working capital, and that's the cash view of what happened in our operations. Then we have investing activities, so maybe capital expenditures, acquisitions and so on. We see what happened there. Then financing activity looks at borrowings, liabilities, and equity that we may have issued. You add up those three numbers, and maybe some are negative, so then we see a change in cash. So it's sources of cash and uses of cash within those three areas of activities are denoting the change in cash.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Sources and Uses of Funds
+
+https://corporatefinanceinstitute.com/resources/knowledge/accounting/sources-and-uses-of-funds-statement/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Cash Conversion Cycle
+
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/c10dff35-77d0-4162-8541-dd2291eff453" />
+
+- Let's talk about the cash conversion cycle. So the cash conversion cycle is a metric, a financial metric that in my opinion, mirrors a lot of the things that are occurring in the supply chain. I'll describe in detail what it is later, but let me start off with an example. So here we see a well-known company, Apple Inc. This is their cash conversion cycle for about a 20-year period, mid 1980s to mid, well, almost 2014 or '15. What we see in the early part of Apple's history, they had a positive cash conversion cycle, some somewhere between 20 and 80, and then in the later part of its history, they had a negative cash conversion cycle, hovering around minus 40. Now, those of you who might be familiar with Apple's history may realize that something in that middle point happened that really changed the trajectory of the company, and hope maybe you can guess it.
+- Now, as those of you who may have guessed correctly, in 1997, Steve Jobs came back as CEO of Apple. He had actually been fired from the company that he founded, had been gone for about 10 years, and then was brought back in, and he made some very radical changes to the company, which included getting rid of a lot of products. So they had a number of different product lines and he got rid of them, he also changed the design of the products, and then lastly, he changed the operation. So in the beginning, Apple had factories and their factories in the United States, and he got rid of all of those internal factories and used contract manufacturers. Now, the cash conversion cycle in and of itself, as a metric also tells you what is happening with working capital. So big portion of the cash position. If you move from a positive cash conversion cycle to a negative cash conversion cycle, one of the most immediate effects it's going to have is that you all of a sudden have a lot more cash sitting in your bank account.
+
+<img width="1916" height="920" alt="image" src="https://github.com/user-attachments/assets/972fd2de-d419-4cb2-9c27-4732d0750ea1" />
+
+<img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/da9df752-33dc-44d0-ae2b-a2442942dfc3" />
+
+- So from a cash flow perspective, that radical move made a big difference. Let's look at some other views of Apple. Let's look at Apple's inventory, for example. One of the things you realize after the mid 1990s, inventory decreased dramatically. So if we think about where in 1997 would be, that's when inventory started to drop and drop very quickly. The other view I would like to show you is, as we look at the overall value of Apple, it's market capitalization, which is the price of Apple shares multiplied by the number of shares that are outstanding, obviously became one of the first trillion-dollar companies, and a lot of the things that were set up in the early '90s when that cash conversion cycle became negative, a lot of these effects can be seen later on when Apple started growing in value very dramatically. Lot of the good things happened with the first launch of the iPhone, but its value kept increasing and increasing.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## A Look at the Cash Conversion Cycle
+
+https://blogs.cfainstitute.org/insideinvesting/2013/05/21/a-look-at-the-cash-conversion-cycle/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Calculate the CCC
+
+<img width="1919" height="932" alt="image" src="https://github.com/user-attachments/assets/a221fbcf-68c5-4ee9-a51c-bda63248c1ad" />
+
+- Now let's talk about how to calculate the cash conversion cycle. So the cash conversion cycle is made up of three independent components, and I'll explain what all of those acronyms mean. So CCC stands for cash conversion cycle, then it's made up of DSO plus DIO minus DPO. DSO stands for days sales outstanding, and I'll describe in detail what each one of these components is. DIO stands for days inventory outstanding, and then finally DPO stands for days payable outstanding. So in words what it means is, how much time are we waiting, how many days are we waiting for our customers to pay us? That's what DSO stands for.
+
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/da2a168a-3083-4ee5-9b66-fc5d574c67d2" />
+
+- Days inventory outstanding, how much inventory do we have sitting around? So if you didn't get anymore replenishment, how long could we last until we run out of inventory? Then finally DPO, how long are we waiting to pay our suppliers? So if you think back on companies having a negative cash conversion cycle, that means that days payable outstanding is larger than both days sales outstanding and days inventory outstanding, and that's the only way this formula can be negative. So when we think about DSO, it's the number of days needed to collect on sales and the way we calculate it and you can do it for every publicly traded company or a company that you have access to a balance sheet and an income statement. So you take accounts receivable and divide it by daily revenue or daily sales, and that tells you, and we're all taking an average of sales, that gives us an indication of how large accounts receivable are. Days inventory outstanding, how many days would it take for us to sell all our available inventory?
+
+<img width="1919" height="890" alt="image" src="https://github.com/user-attachments/assets/3e8ee3d4-6480-4e92-9291-fcadd34c58ec" />
+
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/16fa28ac-944e-4bad-9b93-08a4d934898e" />
+
+- So you do that by taking the inventory number on the balance sheet and dividing it by daily costs of goods sold. The cost of goods sold number can be found on the income statement and then you divide it by 365 days to get a daily cost of goods sold number. So that gives us an idea of how much stuff do we have sitting around. Then finally DPO, it's about how quickly do we pay our bills to our suppliers? So we take accounts payable off of the balance sheet and divide it by daily cost of goods sold, that cost of goods sold number again can be found on the income statement.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## CCC Benchmarking
+
+- Let's talk about how you benchmark the cash conversion cycle. One of the key things about the cash conversion cycle is that in and of itself, it might tell us a little bit something but like what I said about other financial metrics and financial analysis, it makes a lot more sense when we look at it in comparison. One would be in comparison over time, how did the cash conversion cycle develop over time? Like we did with Apple earlier, but the other way to look at it is to compare companies on its different components. And here are a couple of large pharmaceutical companies and their cash conversion cycles, and what we see is that some stand out and some are lagging behind. And we can also compare different components. Now, if you're working in one of these companies and you're trying to make a point on either telling senior management that the cash conversion cycle is very good or very bad.
+
+<img width="1916" height="933" alt="image" src="https://github.com/user-attachments/assets/92bb192e-2014-4a39-9b93-6ea98ffa729f" />
+
+- This would be a good way of setting up your argument because it gives it a very graphical way of describing what is going on. So one way of looking at what would be a good cash conversion cycle always does depend on the industry that you operate at. So if you operate in an industry where a lot of companies have let's say a negative cash conversion cycle, that probably is the benchmark that your company should be striving on as well. And you have to realize that when you're looking at for example, the sales outstanding, so how quickly to get customers to pay their bills. Well, that has to do with industry standards also, because customers are likely working with multiple companies. So if you are either asking them to pay faster, that's probably not going to be very easy. And if you're letting them pay slower, well, then that keeps more money in their pockets.
+- Similarly with the payables outstanding, if you make your suppliers wait longer than what your competitors are doing, that is going to give them a certain indication on how you look at the relationship with the other suppliers. So you have to look at it within an industry and within where other companies are, because otherwise it's going to be a very tricky discussion. And overall when we look at the cash conversion cycle, we want to look at it over time. And we also want to look at it in comparison to other companies.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## How Has Apple's Cash Conversion Cycle Changed Over The Years?
+
+https://www.forbes.com/sites/greatspeculations/2018/08/30/how-has-apples-cash-conversion-cycle-changed-over-the-years/#7ed72b66cea3
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
