@@ -119,3 +119,134 @@ Google Books excerpt of Lean Thinking https://books.google.com/books?id=2eWHaAyi
 
 ## Jidoka (error proofing)
 
+- Now, let's finish up Lean Principle by talking about the other important concept in addition to Just-in-time and that's Jidoka. So Jidoka means error proofing and the idea behind it is that you want to build your whole supply chain system in such a way that it is very difficult for individual workers to make mistakes. So what I mean by that? As you want to build quality into each process and each part of the process. You want to empower the workers on the ground to detect anything that's outside of this perfection that you're striving for. So anything that's unusual has to be detected right away. If there is a mistake that you detect then you immediately stop and fix it right then and there.
+
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/e699d510-a0ec-4220-895c-966e4278c2b2" />
+
+- When you think about how you build the system as you almost want to make it impossible for anybody that operates in the supply chain to do the wrong thing. So one example, if you see the image here that we have is a board with different bolts and there are all numbered displayed for the worker right there to see. So if one of the critical things that you have to do is to make sure you install the right bolt into the right position than having this board with all of the different option, allows the workers to take a bolt out of let's say bag of bolts and you hold it right up to this board and you see, okay this is the correct bolt I can see it. It's very easy to determine and I'm putting the right part into the right location. If you look at lean facilities, there's all kinds of these little reminders for workers to check and make sure that they are doing things the correct way right from the beginning.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Agile Supply Chain
+
+- Now let's talk about agility and the agile supply chain. So when we're talking about a supply chain that is agile, what do we mean? Well, it's fast, an agile supply chain can react to any changes very quickly. It's also flexible, so when you have an agile supply chain, you don't worry too much about, say, getting your forecast perfect right from the beginning. Because you have speed and flexibility to make sure that the changes in consumer demand on this one product, you react to it. And the third important piece of an agile supply chain is experimentation. You're willing to try new things out, see if they work.
+
+<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/6ca8ac2b-f92f-4159-9a19-6e27c7084c75" />
+
+- And if they do work, then they could become a major part of your company, and if they don't work, you move on to the next thing. So it's this very entrepreneurial approach to supply chain management, which is very different from both a Lean approach and sort of your traditional economies of scale. Because economies of scale, you try to have everything as fixed as possible, and in Lean you want to sort of move with the speed of customer, but you don't want to be changing things around constantly and chasing new trends and trying new things. So an agile supply chain typically is very popular in, for example, the fashion industry, where you have new trends, and you want to take advantage of those trends. And once a trend dies down, you shut this one part down and you move over to something completely different, and then you start up something new, and all the time you're just chasing trend after trend after trend. That's when an agile supply chain has to be implemented, because otherwise if you're waiting on long lead times and making sure everything is set up, or you have the whole supply chain build, the trend is over by then. So an agile supply chain doesn't really worry about establishing anything permanent, everything is up to change and you really want to focus on being able to keep up.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Zara's Supply Chain
+
+Please read the following introductory article about Zara's supply chain https://www.forbes.com/sites/jwebb/2017/12/26/how-to-create-an-agile-supply-chain/#5373a1b262f4
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Implement Agility
+
+<img width="1919" height="1008" alt="image" src="https://github.com/user-attachments/assets/7feccfc2-53e0-408a-a783-6194e84727ac" />
+
+- So now let's talk about how you implement agility. Well, obviously, we recognize there are three important things when it comes to agility, speed, flexibility and experimentation. How do you implement speed? Well, when we think about the internal part of our supply chain, you source product, you make them and then you deliver them, you want everything to be faster. So faster sourcing, faster manufacturing and faster deliveries, the more speed you have in the time when you touch the product, the better. With faster sourcing, you want to reduce wait time, you want small lead times as much as possible in manufacturing. You also want to reduce your wait time by not having product sort of sit around on the factory floor as they're getting built.
+- Everything has to be quick, quick, quick, and then in terms of delivery, you're not having something sit around an inventory for days or weeks at a time. You want to get them out the door as quickly as possible. So, speed has to be built in all three phases of your internal supply chain. Then flexibility. Well, one of the important things about achieving flexibility is that you work in teams, and those teams are able to each take each other's role. So it doesn't matter which member of the team does which task because everybody's trained to do everything. So you create short production runs, you focused on being fast and changeovers are very quick and easy, and you don't really have a lot of infrastructure involved.
+
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/f29ef58e-a8fc-49ba-bc22-120cd337b8a7" />
+
+- It's sort of this very entrepreneurial almost startup like atmosphere in each part of your supply chain. And then finally, experimentation. We mentioned was the third thing, so you want to strive for efficiency without ever sacrificing speed or flexibility. So you want to do more with less, you want to have processes in place, but whatever it goes in the process can be different. So, processes are important, but they're not there to really stay a long time. But you sort of have always have a blueprint as soon as you start up in a new thing. Another important thing is you tolerate failure, if you're willing to experiment, you're willing to try new things, follow trends.
+
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/06a3494d-8277-4601-bb2a-3ec627d23a51" />
+
+- If a trend doesn't necessarily work out as you anticipated, that's okay because you move on to the next thing, and they help you learn and refine your processes. So you want within your own teams to reward creativity where you want to make it very easy for people to take risks. And the third one is build a culture of innovation. So the more innovation you have in place, the better. And it's something that rubs off on everybody else when there is this culture of everybody's trying new things and it almost gets competitive in a way.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Agile versus Efficient
+
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/870af3d7-1b12-4c46-a57d-68ee6b14cb04" />
+
+- So now let's finish up Agility by comparing Agile versus efficient supply chains. So one of the things that we have to ask is because Agile doesn't really have the term efficiency, this is not one of the things that Agile supply chain necessarily seemed to care for publicly because it's all about speed and flexibility and experimentation. But we have to ask ourselves what's our value to the customer? When we think about value, what is it that customers are willing to pay for and if customers can get value from your company that they cannot get anywhere else, well, that might actually be a form of efficiency. So when we think about Agile versus efficient, yeah, it's different types of companies maybe even different types of Industry. But I'm not ready to call Agile inefficient because obviously those companies that are following this model are definitely delivering something to the customer that customers are looking for. Within most industries, when we're looking at the speed of innovation and new products coming in, one thing that we can recognize is that trends are happening faster and faster.
+
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/7029778f-292d-4b52-8e4c-12616b58ccb3" />
+
+- With those faster and faster trends, sometimes trends are built into fashion, certain things are just popular at the time and then technology is changing more and more rapidly. Can companies really build a product and expect it to last for years and years or maybe even decades? The overall environment of the industry might actually force a lot of companies to become more Agile.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Triple-A Supply Chain
+
+Please read the following Harvard Business Review article by Hau Lee entitled 
+The Tripe-A Supply Chain https://hbr.org/2004/10/the-triple-a-supply-chain
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Resilient Supply Chain
+
+- Now let's talk about risk and a supply chain that will voice as much risk as possible I would call a Brazilian supply chain. So when we think about what makes a supply chain resilient. On the one hand, it has the ability to resist disruptions from manifesting themselves. And on the other hand also, it has the ability to recover more quickly. So it's both this ability to not really be impacted by any disruption and the ability to bounce back quickly. Those are two important factors and a resilient supply chain really has both. It's not one or the other but it has to have both in place at the same time.
+
+<img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/0ce779d6-4cf9-4f98-9961-21646d58996c" />
+
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/3bcf6a84-b397-41c4-8cf1-f441816ed0d1" />
+
+- And when we think about how disruptions really happened, there's a pretty distinct timeline. So it starts with trying to avoid any disruptions and if one happens the first order of business has to be to contain that disruption. And then you move very quickly into stabilizing your supply chain before you you get back to your normal. So those are the four stages that are really important in when you encounter a disruption. So when you look at let's say a natural disaster hits. First thing is you make sure you understand exactly what happens, what parts are impacted. And make sure that anything that happened to your supply chain has shielded off from from the rest of your company.
+- And as you find ways to work around the disruption, you stabilize it and then you quickly work on returning to normal. So you build everything back up. You get back to the state that you previously had. So it's important to recognize that every disruption just goes through that natural progression of things.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Building a Resilient Supply Chain
+
+https://hbr.org/2007/08/building-a-resilient-supply-ch
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Supply Chain Risk Factors
+
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/c6d5d585-f862-4c83-804d-90fe7999b5b4" />
+
+- Now, let's talk about supply chain risk factors. So when we think about the different types of risks that you could have impacting your company, I'll give you one way of thinking about it. If you look out there at other sources you might find other ones, but I'll give you my version of it. I'd like to look at the procurement side, the manufacturing side, and the logistic side. So we'll start with procurement risks, and procurement risk is typically focused around suppliers and what happens in their realm and there are things that might swap over to your organization. So the first one and probably the more common one is natural disasters that could impact your suppliers, especially when you have areas that are clustered with certain types of suppliers. Remember a couple years ago there was a big flood in Thailand and a lot of computer suppliers were located in that area and they had their operations impacted by that flood.
+- When the tsunami hit in Japan a lot of automotive suppliers were impacted, so natural disasters are definitely one category. Another one is political disruptions, and those could be through maybe a government gets overturned or there are change in policies and they impact how goods flow in and out of that country. So political risk can definitely be present. The third category of risk is process risk. Something within the suppliers manufacturing process, we're broke and it didn't necessarily get fixed in time. So now you see a decline in your orders that are delivered, you're not getting as much product as you anticipated, and so it's due to some internal failure. Definitely an important one.
+- Then finally, financial risk. The supplier is either going out of business or threatening to go out of business or there's some kind of a financial issue, and that happens occasionally and you as the customer then obviously are at risk because that supplier might not exist anymore and you have to find a way to deal with it. Next we'll talked about manufacturing risk and you see some of those same categories, your operations might be hit by some natural disaster or there's some political risk that affects your own operations or something in your process has gone wrong, maybe you didn't detect a quality issue that you might have had announced starts impacting the types of products you produce. So similar risks and similar risk also on the logistic side but now they affect your customer. So your deliveries might be slowed down to some natural event or political risk or it could be things like strikes. So sometimes dock workers are striking so no products get in and out of a certain port, or something in your own delivery process has gone wrong and you're not delivering the right products to the right customers. So that's one categorization of risks, and I think this is particularly suitable for the area of supply chain management to think about procurement, manufacturing, and logistics. As I said before, there are other ones out there but I like to think about it in those three categories.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Risk vs. Efficiency, can we afford it?
+
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/76e33b87-022f-4fcc-8a54-56a64b17c165" />
+
+- Now let's finish up the discussion on risk by comparing risk versus efficiency. So when we think about risk mitigation or resilience, it is one of those things that you have to weigh off against your overall quest for efficiency. Because if you're as efficient as possible, you might not have the ability to focus on avoidance as much. So as you build in different things that that help you avoid risks, that is possibly going to detract from your overall accomplishment of resiliency. And then on the other hand also, as you recover that, then your efficiencies' definitely going to take a hit. However, if you build in recovery mechanisms, maybe your peak efficiency is not as high, but the recovery part will be a lot easier if you thought about it. So, there are some trade-offs necessary when you think about being resilient and being efficient.
+- And lastly, I want to touch a little bit on when it comes to risk mitigation, there are certain things that you can do. And most companies are going to have some kind of an insurance system in place that in the event of a disruption, there are certain types of insurance policy that compensate you financially. That part is fine, but that's only financial compensation and that's not going to cover everything, or the entire loss that you would experience in a disruption. Next thing you can do is to have a flexible supply chain. So now you start seeing when we look at all of these different goals, flexibility can actually help you with risk mitigation. Because you're able to shift things around, work around, isolate certain parts of your business, work around them. You have people who can do multiple jobs, so they're able to help out, and you can overcome disruptions a lot easier when you have flexibility.
+
+<img width="1919" height="1005" alt="image" src="https://github.com/user-attachments/assets/a6ff91bc-fa6f-451e-a392-88bfc789c489" />
+
+- Another thing that you could do is to have redundancy in place. So you have multiples of everything, so if one part breaks down, you have a back-up plan and you're able to start right back up. And the fourth one is inventory. So if you have plenty of inventory even if your manufacturing shuts down or a supplier is down, you have plenty of inventory. That's only going to be a tiny blip in your overall output because you have inventory to carry you through. Now I realize inventory is one of those things that could be considered a waste, but when it comes to disruption it's one of those essential things that give you some time to recover and customers are still going to receive their product. And that gives you time.
+- So you trade off time versus inventory when it comes to resilience. So there are things that you can do to mitigate. All of them take a little bit away from efficiency, but it allows you to bounce back a lot faster so they're not insignificant.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Your Resilient Supply Chain
+
+https://www.apics.org/apics-for-individuals/apics-magazine-home/magazine-detail-page/2011/12/22/your-resilient-supply-chain
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
