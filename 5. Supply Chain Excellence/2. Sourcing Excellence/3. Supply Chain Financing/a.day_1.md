@@ -314,6 +314,95 @@ https://rbr.business.rutgers.edu/sites/default/files/documents/rbr-020114.pdf
 ## Trends and Seasonality
 
 - Now, let's look at a little bit more forecasting and we're going to do something a little bit different from the previous methods which were just methods to use when demand is more or less stationary or fairly flat. We're going to look at trends and seasonality because many cases we have hopefully positive trends which means demand grows. And in many cases we also have seasonal buying patterns of product. So we need to be able to incorporate trends and seasonality into our forecast. So trends are defined as consistent growth in demand or consistent decline. Hopefully not decline, but there's significant patterns that occur period after period. And seasonality is defined as something that's recurring it goes up.
+
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/87e15516-d7f9-4d2a-a968-c300ac54b686" />
+
 - It goes down and comes back up the that could be a seasonality. It's not the four seasons of the year, but it's just defined as patterns that are reoccurring. So this is what trended data would look like. So it doesn't mean that every period is greater than the period before but in general, so the demand could go down for a couple periods. But in general there is a positive trend so the line slopes upwards. As opposed to level demand which stays around that fixed range of around a hundred plus minus goes up and goes down but it's around a hundred. So the blue line is where you can use all of the methods that we just discussed and however, if your demand looks more like the trended line the red line, then you need to do something first.
+
+<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/e045281a-735c-45c4-b6f6-fa0a30f21c34" />
+
+<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/160f1c6d-a984-45c9-bf2c-9e3928095d6b" />
+
 - In order to use your forecasting methods. Now seasonal data would look more like this. So it's going up but it's coming back down and there's some where an average but it's definitely a lot more pronounced and a lot more regular than what we see and just random variations of level demand. So if you have a pattern like that and you may not, then you need to take into account that seasonality. If there's no reoccurring pattern, then so be it but that's a big distinction between between seasonal data. It could have a situation however where your demand is seasonal and trended at the same time. So you have these ups and downs, but you also have a slight overall increase to take it into account.
-- 
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Advanced Forecasting
+
+Please read through the following Forecast article: 
+https://web.archive.org/web/20121018090953/http://www.businessweek.com/1996/43/b3498166.htm
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Estimating Trends
+
+- Now let's look at how to estimate trends. The objective is you're trying to determine on average how much does demand increase per period. So and another way of looking at it, graphically, you're trying to find a slope. There's a very easy way to do it. If you graph, if you have a graph in your spreadsheet, then typically there's an option to add a trend line. That trend line, often you can say give me the regression equation. So by setting that trend line, you can get a regression equation.
+
+<img width="1918" height="932" alt="image" src="https://github.com/user-attachments/assets/c87e53cb-fb81-4cc4-a4eb-695ed5eb2429" />
+
+- Within that regression equation, you have the slope of that line. Now the other way would be to use the regression function if you know how to do that but for our purposes, all you need to do is add that trend line and find that regression equation, which is, at least to me, the quickest way of doing it is to use the trend line and that's all you need. That gives you the slope. Now once you have the slope, then you can add that to each forecast and that's going to give you that increase in demand. Now, the only thing you have to be careful about is, as you move forward, you might want to recalculate the slope because that slope might change over time. Just by doing it once, you may be missing out. So you just want to be careful with that.
+
+<img width="1915" height="939" alt="image" src="https://github.com/user-attachments/assets/b5c62ce7-6c49-45d4-be2a-4169e952898b" />
+
+- So I did it here in this example. I had that same red trend line and I clicked into the graph, I said I wanted to add a trend line. There was a checkbox that said, "Do you want the regression equation?" That's what the result was. So the way to read this is you look at, say, you've y, y is basically your answer. The trend line is made up by the intercept, that's 91 and the slope, and the slope is 5.267. So depending on the month, we multiply the month or the period by 5.267.
+- So that also means that each period, our average growth in demand is 5.26, so more than five. Now, you could simplify that and say, I'll add five to each of my forecast. But that's ultimately what do you do or you could be very precise and add 5.267 to each forecast and it would predict that increase in demand. So that would be hard to add a trend component to your forecast. Now, the other part would also be you could divide past demand by that slope and then that would make the line go flat again. Then you could go back and use the other methods, maybe a moving average or an exponential smoothing to determine past demand. Then as you predict demand, you add in that 5.267 as average period growth.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Estimating Seasonality
+
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/d0d8d058-a8f4-4c42-8c2b-43cafb20b18f" />
+
+- Now, how do we estimate seasonality? That's a little bit trickier than estimating trend, but it's still fairly straightforward. So when we are trying to figure out, what is the length or what is that seasonality in the first place? I made some notes on this graph. So hopefully, it's fairly straightforward to follow along. So we have 24 months of data and we can also see that every four months and if you don't see it, then try to look at it and just count the periods. So we have the first two periods are around 100, then it goes up and comes back down to around 100, goes back up and it comes back down.
+- So every fourth we seem to restart the same pattern. So our season as we define it in this example is four periods long. So now, when we are season as four periods long in this whole Data Stream, we have 24 months. So we get with six occurrences of the same pattern to around 100 and then it shoots up to 130, 140, and then it comes back down to around 100 and so on and there's up and down. So this happens six times in Artemis S1, S2, S3, 4, 5 and 6 and then so those are the seasons. Then period one, period two, period three, period four are within each season. So when we're trying to create a forecast, we need to keep those things in mind.
+- Because what we're trying to do is we're trying to determine what from our baseline, what is either the increase or the decrease in demand as we move through a season. That's what we're trying to accomplish. So we know there are four periods in each season, can average demand over all of those four periods. So that would be the first thing and then we can estimate this P1 by taking the demand in that first period and dividing it by that seasonal average. For P2, we take demand in the second period divided by the average, P3 with the demand in the third period and so forth. Then what you have is a percentage increase from the average and then that will let us either, well, the first thing that we would do with this would be to take this seasonal index and then multiply your demand, your actual demand by the seasonal factor. So three if four in each season and you spread those out over your entire data stream and by taking out that seasonality, what would happen is that your demand is removed of the seasonality, so you've no more seasonality left and the only variations would be noise.
+
+<img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/732addd3-410b-4940-8c45-043c98b50658" />
+
+- So now you could go back, use your moving average or exponential smoothing or whatever you deem as appropriate and you don't have these big increases. Now once you did that and you create that forecast, then you need to go back to your seasonal index and then build that seasonality back into it. So there's one more step afterwards, but that's how you would use the methods we had that which were designed for stationary demand and apply it to non-stationary demand, which is what often you face. So just to reiterate, you find the seasonality you de-seasonalized, you use your stationary forecasts, your moving average or exponential smoothing and then you re-seasonalize and then your forecast will take into account those patterns that you had. 
+
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/f365b671-e86f-4ab5-91e3-f30b5f041584" />
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Combining Trends & Seasonality
+
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/7f9bccff-bd6b-4a07-956a-00add0c209ad" />
+
+- All right. Now, what would you do if you had seasonal and trended data? Where you combine trends and seasonality. So how do you do that? You have to go through a couple of steps. Step number 1 is, you remove the trend. So you find the slope of your trend line and basically remove all of that trend as you go back in time.
+- Then you look at your seasonality, and you find that seasonality and deseasonalize your forecast. Then you apply your forecast, then you go back and try the seasonality by the trend, and then what you come up with as your forecast is going to follow that exact seasonal and trended pattern. So it's a couple of steps and it's a lot more than what we did with stationary forecast, but those workarounds are unfortunately necessary to predict seasonal and trended data. Now, just looking forward, there would be methods that can do all of this all at once. It's not like you take away any of these steps, it still is fairly complex, but if you get more into forecasting there are even more advanced methods. But for the purposes of this course we'll stick with this. So how would it be looking?
+- Well, so you take your seasonal and trended forecast you turn it into a just seasonal forecast, and then it's flat. That's what you apply the methods that we learned previously. Then you dot all and reverse and that's how you get your final result.
+
+<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/145f7a7f-1e86-4a32-80cc-f2d9ed184ed1" />
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Trended and Seasonal Quiz Instructions
+
+For the quiz you will have to do the following:
+
+
+Download the spreadsheet file above.
+
+You will find three tabs (at the bottom: "Trended", "Seasonal", and "Trended-Seasonal"
+
+Obtain the forecasts for the three types of data as outlined in the spreadsheet. (Note: it is complete when all colored cells have data in them and a forecasting line appears in the graph)
+
+For the forecasting part, please use exponential smoothing with the following initalization values: trended=80, seasonal=100, trended-seasonal=100 and an alpha value of 0.1.
+
+Save the spreadsheet and have it available while taking the quiz.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
