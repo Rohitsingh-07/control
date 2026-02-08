@@ -43,6 +43,9 @@ https://www.supplychainquarterly.com/topics/Logistics/20140311-the-real-impact-o
 - Now that translates into price also but a lot of companies look at benefits specifically from an environmental perspective. So it's in that [INAUDIBLE], switching some parts of the journey over to rail would be very beneficial. So when would you use rail transportation? Bulk items are typically moved via rail. If you have coal or if you have things that are heavy. Oil is often moved on a train if there's no specific pipeline or just in general larger items, rail's pricing is going to be more beneficial if you're moving heavy items. It's also a very popular sustainable option because of the fuel efficiency of rail.
 - And in many cases when you say you're using rail, it really means that it's intermodal. So the beginning and the end of the journey are done via truck and the middle of the journey, most likely the longest piece in the largest part of the journey is going to be done on rail. And if those schedules can be aligned fairly well, then it's going to actually provide you with most of the benefits of both methods at the least amount of cost.
 
+<img width="1919" height="953" alt="image" src="https://github.com/user-attachments/assets/462c77fe-6f2b-4888-bfb2-ecce75fca2d4" />
+
+
 ###########################################################################################################
 ###########################################################################################################
 ###########################################################################################################
