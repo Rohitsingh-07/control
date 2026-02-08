@@ -64,3 +64,56 @@ https://assets.kpmg/content/dam/kpmg/ch/pdf/cost-of-capital-study-2018.pdf
 ###########################################################################################################
 ###########################################################################################################
 
+## Why Off-Price Retailers Are Managing Inventory Better than Department Stores
+
+Please read the following article: 
+https://finance.yahoo.com/news/why-off-price-retailers-managing-070652077.html
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Inventory + Customer Service
+
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/70277f2f-2458-4ed8-888c-57ecf4457e0f" />
+
+- So how does inventory relate to customer service? Well, if you're looking at creating a profit, you obviously sell your item, you get revenue, and you subtract from that revenue the cost that you incur. One is cost to produce the product, other ones are cost to service the product or deliver the product, and promotional costs, and that makes up your profit. So in terms of service cost, there are different ways in which you can manage this. And one of the models that I like to show is the following, where we create demand by having a good product, selling it at a great price, and having the adequate amount of promotion associated with it. And there's one other aspect, and that's achieved through logistics. So in marketing, we often talk about the four P's, product, price, promotion, and place.
+- And in this case, I'm going to use place. Typically, it's defined as the supply chain, but I'm going to say the outcome of place is customer service level. In other words, that the product is there when the customer is looking for them. And in order to achieve customer service levels, there are several costs that we incur. One is inventory carrying cost. We have to have the inventory available, of course. Transportation costs, warehousing costs, lot quantity costs, which are related to holding, Or which is related to the quantity that we produce.
+- So in other words, larger lot quantities are going to be cheaper to produce than smaller lot quantity. But if we want more precise inventory management, for example, we're going to have to produce in smaller lots, and produce more frequently as we recognize demand better. So producing in smaller quantity actually costs us money. And then finally, forecasting and information costs. And the key thing here is that we can accomplish customer service levels by investing in inventory, transportation, warehousing, small lot quantities, and forecasting and information. However, we have to obviously earn that revenue first by selling enough products. So if we sell more products, we can potentially offer more service or obtain a higher profit.
+
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/902ef151-47cc-4b56-a4a1-be668f4dcb92" />
+
+- But the idea is that you accomplish customer service levels by investing in mainly logistics activities. And when you think about the interplay of these items, you can't necessarily save money in one side without spending it somewhere else. So there are interrelationships.
+
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Customer Service Costs
+
+- Now let's talk about some of the customer service cost tradeoffs. And the way I'm going to set it up when you try to decrease one cost related to customer service, something else is going to increase. So if we're trying to focus on inventory carrying cost, if somebody said, well we spend too much money on inventory, you're carrying too much inventory, decrease the inventory. So then you decrease the carrying cost, you'll end up with likely higher transportation cost because well, you're going to ship items more frequently and it's going to be smaller shipments. And you'll end up with higher warehousing cost because in order to keep the same level of service, you might have to have warehouses located closer to the customer. So you'll need more warehouses than you had before. Another way of looking at it.
+
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/60879991-858b-4867-a6b0-2838709f681f" />
+
+<img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/30032223-a001-4f00-8655-53df262eb131" />
+
+- Let's say you want to focus on transportation cost. Somebody says, well transportation costs are way too high. What will end up happening is we'll end up with higher inventory carrying cost and higher warehousing cost because you are going to have to hold more items in your warehouse because now you're shipping in larger quantities to reduce transportation costs. So you have more inventory sitting around and likely you might have to have more warehouses to maintain the same level of service. So, all of this is related to the level of service you'd like to accomplish. And then finally, what if you reduce your warehousing cost i.e have fewer warehouses, you'll end up with higher inventory carrying cost because you carry more inventory in those warehouses than you had before and you end up with higher transportation costs. So as you see from these few scenarios, yes, you can focus on one cost but you can't achieve that without another cost increasing and the overall lowest total cost is going to be dependent on your situation of course.
+
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/1868cc7e-fc66-4521-9d43-2eb21c2b1b46" />
+
+- However, you have to be very careful in how you manage those different pieces and typically it's transportation cost, warehousing cost and inventory cost as key variables that you have to deal with.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## McKinsey estimates stock-outs for automotive, retail supply chains by end of March, April 2020
+
+Please read the following article: 
+https://www.supplychaindive.com/news/mckinsey-stock-outs-automotive-retail-supply-chains-coronavirus-covid-inventory/574526/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
