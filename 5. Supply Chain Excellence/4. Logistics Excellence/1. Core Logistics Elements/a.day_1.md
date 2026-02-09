@@ -213,3 +213,164 @@ https://www.supplychainquarterly.com/articles/5327-sustainability-esg-and-3pl-cu
 ###########################################################################################################
 ###########################################################################################################
 
+## Third Party Logistics Providers
+
+- Now let's talk about third party logistics providers, so what are they? Well, very often they start off as warehousing or transportation companies and then over time they offered more and more services. So for example, you have a warehouse and then over time they say, we can manage transportation or we can manage your inventory and tell you exactly where you should stock things and so on. So it's then over time 3PLs really expanded in their range of services, they do analytics and consulting nowadays and so on. And typically, the bare-bones, they'll provide warehousing services, transportation services. Doesn't mean they necessarily have trucks of their own, but they find truck drivers or small transportation companies that specialize on a specific area and contract with them. And they also often have IT services that connect to your systems and so on.
+
+<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/fa6089ef-5801-4be0-8489-9427c2bfee7b" />
+
+- So they are very important parts of companies' logistics system. The only question is how much of the leadership and strategy do you want to put in their hands? Because they can very often want to do certain things, but it is very important to realize they are not your own company. They're just a service provider and you might have objectives that are slightly different from theirs or levels of expectations that are slightly different from them. So I always think that strategy and leadership should be part of your own organization if you deal with outsourced service providers. So when we look at a typical organizational chart, are you going to still have, let's say, managers and analysts? Well, in most cases you might want to keep them.
+
+<img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/7815613f-00e9-4560-859a-04422485e833" />
+
+- Even though a 3PL would have the capability to do those tasks, do you really want to give them that level of autonomy? Next up, are you going to still have somebody overseeing all of your warehousing, all of your transportation, all of your customer service? And very often if you look at the six lower boxes on this chart, you might actually keep some and not others. But I've also seen companies were basically all six were part of the 3PL and the company really had somebody in charge of logistics. And what they would do is just set up systems with different 3PLs and that was the logistics for the entire company. Can work out okay, but you are putting yourself at a risk of not having much control over your operations.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Supercharging Supply Chains with Uber Platforms
+
+This is an interesting and thought-provoking article about what could be the future of logistics:
+
+"Uber-like platforms will soon provide on-demand fulfillment, warehouse, and logistics services everywhere. Are you ready?"
+
+https://www.linkedin.com/pulse/supercharging-supply-chains-uber-platforms-michael-hu/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Outbound Information Flow
+
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/bd4b3a36-9b3d-4f52-b1e5-16cdd5e4b347" />
+
+- Now at this point let's talk about outbound information flow. So information flow between you and your customers and everything in between. Now, one of the key systems that's working on the outbound size is a Warehouse Management System. Well, I've touch on them briefly. The main thing features are of Warehouse Management Systems is to receive SKUs, stores them and ship them. Ultimately it's the control center of all of the operations in the warehouse. Warehouse Management features will include, picking, receiving, counting, locating items, tracking lots as a whole as they come in, which that's typically a more advanced feature.
+
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/2be3dc0f-a6e3-4667-ab94-1d71cba67301" />
+
+- A few standard things would be picking, receiving, counting and locating. The better system will do things like lot tracking, order allocation, kitting, which is light assembly, putting some things together in the warehouse, planning waves. So if you are picking an order, you could basically take an order sheet and say, all right, here's item one, item two, item three and go from location to locations. Waves would go through one location. They pick all of the items that are required to be shipped out in that day, put them on the conveyor belt, let the conveyor belt sort them out and then you direct your pictures, your workers to go to another area and wave pick in that location. You could do the same things with put away, where you direct your workers to put away items that you received a new warehouse in a specific locations are other and you don't tell them, hey, just put them wherever you find space. So there is a lot of guidance that Warehouse Management Systems can provide you with, especially the ones with more advanced features and some of them will be able to optimize certain things or optimize space or optimize labor productivity and so on. So they can get actually quite advanced.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Supply Chain Visibility
+
+This reading highlights the importance of IT systems in supply chains:
+
+https://www.freightwaves.com/news/investing-in-supply-chain-visibility-can-save-billions-in-pharmaceutical-logistics
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## WMS Benefits
+
+<img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/b26866fd-07ba-4995-a50d-104d786ba9a8" />
+
+- So why do a lot of companies have warehouse management systems? Well, first of all, you're rarely ever going to find a warehouse that doesn't have some kind of a computerized system to track what's going on in the warehouse. The big wave of implementation was back in the 70s and 80s, and they led to increases in productivity. They allow for fairly precise control of all of the activities that are going on in the warehouse. Plus the the main other thing is that they connect well to other systems. They report back into the ERP system, they might connect into the transportation management systems, which we're going to talk about in more detail pretty soon. But they are one piece of a whole chain of different systems, but they're a very important system within the warehouse, of course.
+
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/61575fce-358a-4832-9d77-7f04d9d98904" />
+
+- So productivity is very important. Warehouses typically are seen as cost centers, they're not seen as something that creates additional revenue. Although if you handle your logistics well overall, that should be a source of repeat business, but that's a whole nother discussion. But one of the key things in a warehouse is that you have to manage costs. And labor is one of the most significant operating expenses for a warehouse, and you also have to balance it off with available machinery. So usually machinery is a very high upfront investment and usually the give and take is between labor and machinery. If you automate the warehouse a little more, you can reduce labor cost, but it comes at a high upfront cost.
+
+<img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/f3cfbf5d-3418-4684-84bb-74f2d707675c" />
+
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/d6d939c4-15c6-4f2f-86a8-50da3e97a3c8" />
+
+- And however your warehouse is configured, the job of a warehouse management system is to make sure that it pushes down on those costs and that whatever setup you have in your warehouse is optimized as much as possible. That's the main job of a warehouse management system. So you gain control by tracking activities, comparing them to what those activities should look like, and that's ultimately how you measure performance. And by continuously measuring performance, you have a good grip on how well the activities in the warehouse are going. So this is sort of the infrastructure that a warehouse management system lives in. Typically, you have multiple warehouse, each running their own instance, at least, of a warehouse management system. And then you have the transportation management system of connecting all of the activities of those warehouses and moving the products out to the customers. And then all of that lives within the ERP ecosystem, if you will. 
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## WMS Challenges
+
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/b4d2ed9f-e85b-4f36-a459-11afc863a61f" />
+
+- So what are the main challenges with the warehouse management systems? Well, one is, one challenge is what type of system should you have? Most ERP systems will have some rudimentary WMS capability. Or do you go with a customized Best-of-Breed system and I guess in many ways the answer depends on what your warehouse looks like, what your goals are. And whether that customized system is going to provide enough benefits to make it worthwhile, because that's usually an additional expense beyond of what you spend on your ERP system. So typically, warehouse management systems are locally installed. Although there are some pay-per-use software as a service type of systems available and I think a lot of companies are moving more towards a pay-per-use system.
+
+<img width="1918" height="944" alt="image" src="https://github.com/user-attachments/assets/966eb484-fefd-4286-ac5f-556ac2579453" />
+
+- But if you're on the traditional side, it's a very high upfront fixed cost. You have to spend that to get that WMS system working. Which if it provides all the benefits you thought it was you're going to have, no problem, but you still have to come up with that money, which is not typically something that's very easy to do. So, it's not an insignificant cost and the only way these systems can pay for themselves is for your productivity to increase.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## WMS - ERP versus best of breed
+
+While we talked about WMS systems, let's not forget that all ERP systems have that functionality. Here are two views:
+
+ERP: 
+https://www.mmh.com/article/the_path_forward_for_erp_wms
+
+BoB: 
+https://www.inboundlogistics.com/cms/article/supply-chain-convergence-stitching-together-best-of-breed-technologies/ 
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## Transportation Management Systems
+
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/8ab13bd1-ebdb-469d-8536-4cd443776447" />
+
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/8b609a67-0198-4861-a450-f49701af36c4" />
+
+- Now let's move on to Transportation Management Systems. So the idea behind the TMS system is that orders come in through an ERP system, goes to the warehouse to be picked and then once the order is ready to be shipped, the transportation management system handles that movement and manages that movement. So we're matching up orders and available equipment and then we allocate these orders through specific vehicle. Sound fairly easy, but if you have thousands of orders and hundreds of trucks, it's going to different locations, there's a lot of things that need to be weighed off, especially if you're trying to allocate these orders to vehicles in a efficient manner and trying to get them on the shortest route possible and to deliver all of your orders within specifically allocated time periods. It's not an insignificant challenge to overcome and that's what a good transportation management system will accomplish.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## The Democratization of TMS
+
+This article has an interesting view of TMS systems, and highlights one of our program's alumni:
+
+https://www.logisticsmgmt.com/article/the_democratization_of_tms
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## TMS Benefits
+
+<img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/c3486578-a1d0-4228-ad1a-6e16c4667c49" />
+
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/0dca11c6-a36a-42f0-8824-ede6d615f711" />
+
+- So what are the benefits of TMS systems? Well, productivity, control, and it connects into this ecosystem of other systems that you're using within the supply chain. So, what kind of productivity do you gain? Well, you can optimize across modes. So, when your products are being shipped out, if they go through different modes of transportation, it doesn't necessarily mean that you only optimize trucking, or rail, or ocean. It optimizes the whole movement of the product. It also helps you understand how your products are moving towards the customer, and by gaining that understanding, hopefully, you understand how to make it better, and drive improvements.
+
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/fdeb3e95-6321-44ef-b197-992c24f3a8fd" />
+
+- Typically, I've seen this reported in the literature. When companies are saying they implement a TMS system, their expectation on saving on transportation costs is around 10 percent. So hopefully the cost of the system is less than that. So it's a positive return on investment, but going from not having a TMS system to having one, that should be about what would the reduction cost should be, and it also gives you control, because you can pick different modes, you can pick different carriers, and it allows you for tracking between origin and destination, and these carrier choices might have, and often do have a big impact on price, and more choices as well, because they all have their benefits and challenges. So, you earn fairly solid control of your transportation movement.
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## TMS Challenges
+
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/688955f1-e679-43a4-8884-0075678ecf32" />
+
+- However, we also have some challenges with TMS systems. And, the first one is what I just finished talking about is the return on investment. Can we make our money back? But they're also not all that simple to operate and implement. And in order to get the highest level of productivity out of them, you have to really implement them in the right way and set them up in the right way. And then also using them can become a chance, so I'll talk about all those. So we do have the option of service or cloud-based TMS systems.
+
+<img width="1915" height="938" alt="image" src="https://github.com/user-attachments/assets/6c5eee5f-dd9c-4615-807b-d2b4c49a6446" />
+
+- But you have to weigh it off, whether having a local installation of an existing system, or I've heard of companies building their own TMS systems. Because they think by customizing at exactly to their needs, they can gain an advantage. That's a trade-off decision that you have to make
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+## How to revamp your Order Fulfillment Strategy
+
+This article has some interesting guidelines on order fulfillment systems:
+
+https://www.dcvelocity.com/articles/20191230-how-to-revamp-your-order-fulfillment-strategy/
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
